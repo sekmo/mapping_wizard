@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Partner:</strong>
+  <%= @mapping.partner %>
+</p>
+
+<p>
+  <strong>Dalia key:</strong>
+  <%= @mapping.dalia_key %>
+</p>
+
+<p>
+  <strong>Dalia value:</strong>
+  <%= @mapping.dalia_value %>
+</p>
+
+<p>
+  <strong>Partner key:</strong>
+  <%= @mapping.partner_key %>
+</p>
+
+<p>
+  <strong>Partner value:</strong>
+  <%= @mapping.partner_value %>
+</p>
+
+<%= link_to 'Edit', edit_mapping_path(@mapping) %> |
+<%= link_to 'Back', mappings_path %>

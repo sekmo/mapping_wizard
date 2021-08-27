@@ -10,18 +10,20 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_08_27_150835) do
+ActiveRecord::Schema.define(version: 2021_08_27_151026) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
   create_table "mappings", force: :cascade do |t|
+    t.bigint "partner_id"
     t.string "dalia_key"
     t.string "dalia_value"
     t.string "partner_key"
     t.string "partner_value"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.index ["partner_id"], name: "index_mappings_on_partner_id"
   end
 
   create_table "partners", force: :cascade do |t|
@@ -30,4 +32,5 @@ ActiveRecord::Schema.define(version: 2021_08_27_150835) do
     t.datetime "updated_at", null: false
   end
 
+  add_foreign_key "mappings", "partners"
 end

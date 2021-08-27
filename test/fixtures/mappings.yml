@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  partner: one
+  dalia_key: MyString
+  dalia_value: MyString
+  partner_key: MyString
+  partner_value: MyString
+
+two:
+  partner: two
+  dalia_key: MyString
+  dalia_value: MyString
+  partner_key: MyString
+  partner_value: MyString
