@@ -1,24 +1,13 @@
-# README
+# MappingWizard
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+An example app to experiment with some frontend features of our DemographicsMapper app.
 
-Things you may want to cover:
+## How to run the app
 
-* Ruby version
+The app is dockerized. You need to run the following commands:
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+- `docker compose build`
+- `docker-compose run --rm web bundle install`
+- `docker-compose run web bundle exec rails db:create`
+- `docker-compose run --rm web bundle exec rails db:migrate`
+- `docker-compose up`

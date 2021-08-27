@@ -1,0 +1,57 @@
+# Use the file format compatible with Docker Compose 3.8
+version: "3.8"
+
+# Each thing that Docker Compose runs is referred to as
+# a "service". In our case, our Rails application is one
+# service ("web") and our PostgreSQL database instance
+# is another service ("database").
+services:
+
+  postgresql:
+    image: postgres:11.5
+
+    volumes:
+      - db_data:/var/lib/postgresql/data
+      - ./init.sql:/docker-entrypoint-initdb.d/init.sql
+    ports:
+    - "5433:5432"
+
+  web:
+    # The root directory from which we're building.
+    build: .
+
+    # This makes it so any code changes inside the project
+    # directory get synced with Docker. Without this line,
+    # we'd have to restart the container every time we
+    # changed a file.
+    volumes:
+      - .:/app:cached
+      - bundler_gems:/usr/local/bundle/
+
+    # Enables byebug/pry support when attached to the Docker container
+    tty: true
+    
+    # The command to be run when we run "docker-compose up".
+    command: bash -c "rm -f tmp/pids/server.pid && bundle exec rails s -p 3000 -b '0.0.0.0'"
+
+    ports:
+      - "3000:3000"
+
+    # Specify that this container depends on the other
+    # container which we've called "database".
+    depends_on:
+      - postgresql
+
+    # Specify the values of the environment variables
+    # used in this container.
+    environment:
+      RAILS_ENV: development
+      DATABASE_NAME: mappingwizard_development
+      DATABASE_USER: mappingwizard_development
+      DATABASE_PASSWORD: 
+      DATABASE_HOST: postgresql
+
+# Declare the volumes that our application uses.
+volumes:
+  db_data:
+  bundler_gems:

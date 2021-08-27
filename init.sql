@@ -1,0 +1,3 @@
+CREATE USER mappingwizard_development SUPERUSER;
+CREATE DATABASE mappingwizard_development;
+GRANT ALL PRIVILEGES ON DATABASE mappingwizard_development TO mappingwizard_development;
