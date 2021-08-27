@@ -3,7 +3,8 @@ class MappingsController < ApplicationController
 
   # GET /mappings or /mappings.json
   def index
-    @mappings = Mapping.all
+    @partner = Partner.find(params[:partner_id])
+    @mappings = Mapping.all.order(:id)
   end
 
   # GET /mappings/1 or /mappings/1.json

@@ -1,11 +1,10 @@
 <p id="notice"><%= notice %></p>
 
-<h1>Mappings</h1>
+<h1>Mappings for <%= @partner.name %></h1>
 
 <table class="mapping-index">
   <thead>
     <tr>
-      <th>Partner</th>
       <th>Dalia key</th>
       <th>Dalia value</th>
       <th>Partner key</th>
@@ -17,7 +16,6 @@
   <tbody>
     <% @mappings.each do |mapping| %>
       <tr>
-        <td><%= mapping.partner %></td>
         <td><%= mapping.dalia_key %></td>
         <td><%= mapping.dalia_value %></td>
         <td><%= mapping.partner_key %></td>
