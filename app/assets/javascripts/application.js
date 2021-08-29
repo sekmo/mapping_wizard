@@ -14,3 +14,6 @@
 //= require activestorage
 //= require turbolinks
 //= require_tree .
+
+//= require jquery-3.6.0.min
+//= require SimpleTableCellEditor

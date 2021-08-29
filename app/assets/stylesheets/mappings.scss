@@ -5,7 +5,23 @@
   border-collapse: collapse;
 }
 
-.mapping-index td {
+.mapping-index td, .mapping-index th {
   border: 1px solid #eee;
-  padding: 7px;
+  padding: 7px 15px;
+}
+
+.mapping-index th {
+  text-align: left;
+}
+
+.mapping-index tr {
+  cursor: pointer;
+}
+
+// .mapping-index tr:active {
+//   background-color: rgb(160, 158, 209) !important;
+// }
+
+.mapping-index tr.selected {
+  background-color: rgb(213, 212, 240);
 }

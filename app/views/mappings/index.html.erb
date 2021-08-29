@@ -2,28 +2,26 @@
 
 <h1>Mappings for <%= @partner.name %></h1>
 
-<table class="mapping-index">
+<table class="mapping-index" id="mapping-index">
   <thead>
     <tr>
       <th>Dalia key</th>
       <th>Dalia value</th>
       <th>Partner key</th>
       <th>Partner value</th>
-      <th colspan="3"></th>
+      <th>Action</th>
     </tr>
   </thead>
 
   <tbody>
     <% @mappings.each do |mapping| %>
-      <tr>
-        <td><%= mapping.dalia_key %></td>
-        <td><%= mapping.dalia_value %></td>
-        <td><%= mapping.partner_key %></td>
-        <td><%= mapping.partner_value %></td>
-        <td><%= link_to 'Show', mapping %></td>
-        <td><%= link_to 'Edit', edit_mapping_path(mapping) %></td>
-        <td><%= link_to 'Destroy', mapping, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-      </tr>
+      <%= content_tag :tr, id: dom_id(mapping), data: {mapping_id: mapping.id} do %>
+        <td class="editMe" data-mapping-id="<%= mapping.id %>" data-mapping-property="dalia_key"><%= mapping.dalia_key %></td>
+        <td class="editMe" data-mapping-id="<%= mapping.id %>" data-mapping-property="dalia_value"><%= mapping.dalia_value %></td>
+        <td class="editMe" data-mapping-id="<%= mapping.id %>" data-mapping-property="partner_key"><%= mapping.partner_key %></td>
+        <td class="editMe" data-mapping-id="<%= mapping.id %>" data-mapping-property="partner_value"><%= mapping.partner_value %></td>
+        <td><button class="deleteMappingButton">Delete</button></td>
+      <% end %>
     <% end %>
   </tbody>
 </table>
@@ -31,3 +29,68 @@
 <br>
 
 <%= link_to 'New Mapping', new_mapping_path %>
+
+<script>
+  editor = new SimpleTableCellEditor("mapping-index");
+  editor.SetEditableClass("editMe");
+  editor.SetEditableClass("feedMeNumbers", { validation: $.isNumeric }); //If validation return false, value is not updated
+
+  $('#mapping-index').on("cell:edited", function (event) {
+    let newValue = event.newValue;
+    let cellEdited = event.element;
+    let mappingProperty = cellEdited.dataset.mappingProperty;
+    let mappingId = Number(cellEdited.dataset.mappingId);
+    sendMappingBatchUpdateRequest([mappingId], mappingProperty, newValue)
+  });
+
+  function sendMappingBatchUpdateRequest(mapping_ids, property, value) {
+    var url = "http://localhost:3000/mappings/batch_update";
+    var request = new XMLHttpRequest();
+    request.open("PATCH", url);
+
+    request.setRequestHeader("Accept", "application/json");
+    request.setRequestHeader("Content-Type", "application/json");
+    var token = document.querySelector('meta[name="csrf-token"]').content;
+    request.setRequestHeader('X-CSRF-Token', token)
+
+    var data = {
+      "ids": mapping_ids,
+      "property_to_update": property,
+      "value": value
+    };
+
+    request.send(JSON.stringify(data));
+  }
+
+  // Delete mappings
+  var deleteMappingButtons = document.querySelectorAll('.deleteMappingButton');
+  for (i = 0; i < deleteMappingButtons.length; i++) {
+    deleteMappingButtons[i].addEventListener("click", deleteMapping);
+  }
+  
+  function deleteMapping(event) {
+    if (confirm("Are you sure to delete the mapping?")) {
+      var mappingId = event.target.parentNode.parentNode.dataset.mappingId;
+      removeMappingFromTable(mappingId);
+      sendDeleteRequest(mappingId);
+    }
+  }
+
+  function sendDeleteRequest(mapping_id) {
+    var url = `http://localhost:3000/mappings/${mapping_id}`;
+    var request = new XMLHttpRequest();
+    request.open("DELETE", url);
+
+    request.setRequestHeader("Accept", "application/json");
+    request.setRequestHeader("Content-Type", "application/json");
+    var token = document.querySelector('meta[name="csrf-token"]').content;
+    request.setRequestHeader('X-CSRF-Token', token)
+
+    request.send();
+  }
+
+  function removeMappingFromTable(mappingId) {
+    var rowToDelete = document.querySelector(`.mapping-index tr[data-mapping-id='${mappingId}']`);
+    rowToDelete.parentNode.removeChild(rowToDelete);
+  }
+</script>
