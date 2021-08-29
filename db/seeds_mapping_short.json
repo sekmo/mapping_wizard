@@ -1,0 +1,2848 @@
+[
+  {
+    "values": [
+      {
+        "dalia_demographic_value": "new",
+        "partner_user_demographic_key": "717",
+        "partner_user_demographic_value": "1"
+      },
+      {
+        "dalia_demographic_value": "used",
+        "partner_user_demographic_key": "717",
+        "partner_user_demographic_value": "2"
+      },
+      {
+        "dalia_demographic_value": "no_car",
+        "partner_user_demographic_key": "717",
+        "partner_user_demographic_value": "3"
+      }
+    ],
+    "dalia_demographic_key": "auto_purchase_type"
+  },
+  {
+    "values": [
+      {
+        "dalia_demographic_value": "business",
+        "partner_user_demographic_key": "750",
+        "partner_user_demographic_value": "1"
+      },
+      {
+        "dalia_demographic_value": "leisure",
+        "partner_user_demographic_key": "750",
+        "partner_user_demographic_value": "2"
+      },
+      {
+        "dalia_demographic_value": "both",
+        "partner_user_demographic_key": "750",
+        "partner_user_demographic_value": "3"
+      },
+      {
+        "dalia_demographic_value": "neither",
+        "partner_user_demographic_key": "750",
+        "partner_user_demographic_value": "4"
+      }
+    ],
+    "dalia_demographic_key": "flight_purpose"
+  },
+  {
+    "values": [
+      {
+        "dalia_demographic_value": "rent",
+        "partner_user_demographic_key": "2216",
+        "partner_user_demographic_value": "1"
+      },
+      {
+        "dalia_demographic_value": "own",
+        "partner_user_demographic_key": "2216",
+        "partner_user_demographic_value": "2"
+      },
+      {
+        "dalia_demographic_value": "other",
+        "partner_user_demographic_key": "2216",
+        "partner_user_demographic_value": "3"
+      }
+    ],
+    "dalia_demographic_key": "home_owner"
+  },
+  {
+    "values": [
+      {
+        "dalia_demographic_value": "arts_crafts",
+        "partner_user_demographic_key": "725",
+        "partner_user_demographic_value": "1"
+      },
+      {
+        "dalia_demographic_value": "boating",
+        "partner_user_demographic_key": "725",
+        "partner_user_demographic_value": "2"
+      },
+      {
+        "dalia_demographic_value": "camping",
+        "partner_user_demographic_key": "725",
+        "partner_user_demographic_value": "3"
+      },
+      {
+        "dalia_demographic_value": "cooking",
+        "partner_user_demographic_key": "725",
+        "partner_user_demographic_value": "4"
+      },
+      {
+        "dalia_demographic_value": "extreme_sports",
+        "partner_user_demographic_key": "725",
+        "partner_user_demographic_value": "5"
+      },
+      {
+        "dalia_demographic_value": "golf",
+        "partner_user_demographic_key": "725",
+        "partner_user_demographic_value": "6"
+      },
+      {
+        "dalia_demographic_value": "health_fitness",
+        "partner_user_demographic_key": "725",
+        "partner_user_demographic_value": "7"
+      },
+      {
+        "dalia_demographic_value": "holiday",
+        "partner_user_demographic_key": "725",
+        "partner_user_demographic_value": "8"
+      },
+      {
+        "dalia_demographic_value": "horses",
+        "partner_user_demographic_key": "725",
+        "partner_user_demographic_value": "9"
+      },
+      {
+        "dalia_demographic_value": "hunting_fishing",
+        "partner_user_demographic_key": "725",
+        "partner_user_demographic_value": "10"
+      },
+      {
+        "dalia_demographic_value": "interior_decorating",
+        "partner_user_demographic_key": "725",
+        "partner_user_demographic_value": "11"
+      },
+      {
+        "dalia_demographic_value": "motor_caravaning",
+        "partner_user_demographic_key": "725",
+        "partner_user_demographic_value": "12"
+      },
+      {
+        "dalia_demographic_value": "athletics",
+        "partner_user_demographic_key": "725",
+        "partner_user_demographic_value": "13"
+      },
+      {
+        "dalia_demographic_value": "music",
+        "partner_user_demographic_key": "725",
+        "partner_user_demographic_value": "14"
+      },
+      {
+        "dalia_demographic_value": "play_computer_games",
+        "partner_user_demographic_key": "725",
+        "partner_user_demographic_value": "15"
+      },
+      {
+        "dalia_demographic_value": "reading",
+        "partner_user_demographic_key": "725",
+        "partner_user_demographic_value": "16"
+      },
+      {
+        "dalia_demographic_value": "skiing",
+        "partner_user_demographic_key": "725",
+        "partner_user_demographic_value": "17"
+      },
+      {
+        "dalia_demographic_value": "technology_computers",
+        "partner_user_demographic_key": "725",
+        "partner_user_demographic_value": "18"
+      },
+      {
+        "dalia_demographic_value": "travel",
+        "partner_user_demographic_key": "725",
+        "partner_user_demographic_value": "19"
+      },
+      {
+        "dalia_demographic_value": "sports_tv",
+        "partner_user_demographic_key": "725",
+        "partner_user_demographic_value": "20"
+      },
+      {
+        "dalia_demographic_value": "other",
+        "partner_user_demographic_key": "725",
+        "partner_user_demographic_value": "21"
+      },
+      {
+        "dalia_demographic_value": "none of the above",
+        "partner_user_demographic_key": "725",
+        "partner_user_demographic_value": "-3105"
+      }
+    ],
+    "dalia_demographic_key": "hobbies"
+  },
+  {
+    "values": [
+      {
+        "dalia_demographic_value": "boy_under_1",
+        "partner_user_demographic_key": "1249",
+        "partner_user_demographic_value": "1"
+      },
+      {
+        "dalia_demographic_value": "girl_under_1",
+        "partner_user_demographic_key": "1249",
+        "partner_user_demographic_value": "2"
+      },
+      {
+        "dalia_demographic_value": "boy_1",
+        "partner_user_demographic_key": "1249",
+        "partner_user_demographic_value": "3"
+      },
+      {
+        "dalia_demographic_value": "girl_1",
+        "partner_user_demographic_key": "1249",
+        "partner_user_demographic_value": "4"
+      },
+      {
+        "dalia_demographic_value": "boy_2",
+        "partner_user_demographic_key": "1249",
+        "partner_user_demographic_value": "5"
+      },
+      {
+        "dalia_demographic_value": "girl_2",
+        "partner_user_demographic_key": "1249",
+        "partner_user_demographic_value": "6"
+      },
+      {
+        "dalia_demographic_value": "boy_3",
+        "partner_user_demographic_key": "1249",
+        "partner_user_demographic_value": "7"
+      },
+      {
+        "dalia_demographic_value": "girl_3",
+        "partner_user_demographic_key": "1249",
+        "partner_user_demographic_value": "8"
+      },
+      {
+        "dalia_demographic_value": "boy_4",
+        "partner_user_demographic_key": "1249",
+        "partner_user_demographic_value": "9"
+      },
+      {
+        "dalia_demographic_value": "girl_4",
+        "partner_user_demographic_key": "1249",
+        "partner_user_demographic_value": "10"
+      },
+      {
+        "dalia_demographic_value": "boy_5",
+        "partner_user_demographic_key": "1249",
+        "partner_user_demographic_value": "11"
+      },
+      {
+        "dalia_demographic_value": "girl_5",
+        "partner_user_demographic_key": "1249",
+        "partner_user_demographic_value": "12"
+      },
+      {
+        "dalia_demographic_value": "boy_6",
+        "partner_user_demographic_key": "1249",
+        "partner_user_demographic_value": "13"
+      },
+      {
+        "dalia_demographic_value": "girl_6",
+        "partner_user_demographic_key": "1249",
+        "partner_user_demographic_value": "14"
+      },
+      {
+        "dalia_demographic_value": "boy_7",
+        "partner_user_demographic_key": "1249",
+        "partner_user_demographic_value": "15"
+      },
+      {
+        "dalia_demographic_value": "girl_7",
+        "partner_user_demographic_key": "1249",
+        "partner_user_demographic_value": "16"
+      },
+      {
+        "dalia_demographic_value": "boy_8",
+        "partner_user_demographic_key": "1249",
+        "partner_user_demographic_value": "17"
+      },
+      {
+        "dalia_demographic_value": "girl_8",
+        "partner_user_demographic_key": "1249",
+        "partner_user_demographic_value": "18"
+      },
+      {
+        "dalia_demographic_value": "boy_9",
+        "partner_user_demographic_key": "1249",
+        "partner_user_demographic_value": "19"
+      },
+      {
+        "dalia_demographic_value": "girl_9",
+        "partner_user_demographic_key": "1249",
+        "partner_user_demographic_value": "20"
+      },
+      {
+        "dalia_demographic_value": "boy_10",
+        "partner_user_demographic_key": "1249",
+        "partner_user_demographic_value": "21"
+      },
+      {
+        "dalia_demographic_value": "girl_10",
+        "partner_user_demographic_key": "1249",
+        "partner_user_demographic_value": "22"
+      },
+      {
+        "dalia_demographic_value": "boy_11",
+        "partner_user_demographic_key": "1249",
+        "partner_user_demographic_value": "23"
+      },
+      {
+        "dalia_demographic_value": "girl_11",
+        "partner_user_demographic_key": "1249",
+        "partner_user_demographic_value": "24"
+      },
+      {
+        "dalia_demographic_value": "boy_12",
+        "partner_user_demographic_key": "1249",
+        "partner_user_demographic_value": "25"
+      },
+      {
+        "dalia_demographic_value": "girl_12",
+        "partner_user_demographic_key": "1249",
+        "partner_user_demographic_value": "26"
+      },
+      {
+        "dalia_demographic_value": "male_13",
+        "partner_user_demographic_key": "1249",
+        "partner_user_demographic_value": "27"
+      },
+      {
+        "dalia_demographic_value": "female_13",
+        "partner_user_demographic_key": "1249",
+        "partner_user_demographic_value": "28"
+      },
+      {
+        "dalia_demographic_value": "male_14",
+        "partner_user_demographic_key": "1249",
+        "partner_user_demographic_value": "29"
+      },
+      {
+        "dalia_demographic_value": "female_14",
+        "partner_user_demographic_key": "1249",
+        "partner_user_demographic_value": "30"
+      },
+      {
+        "dalia_demographic_value": "male_15",
+        "partner_user_demographic_key": "1249",
+        "partner_user_demographic_value": "31"
+      },
+      {
+        "dalia_demographic_value": "female_15",
+        "partner_user_demographic_key": "1249",
+        "partner_user_demographic_value": "32"
+      },
+      {
+        "dalia_demographic_value": "male_16",
+        "partner_user_demographic_key": "1249",
+        "partner_user_demographic_value": "33"
+      },
+      {
+        "dalia_demographic_value": "female_16",
+        "partner_user_demographic_key": "1249",
+        "partner_user_demographic_value": "34"
+      },
+      {
+        "dalia_demographic_value": "male_17",
+        "partner_user_demographic_key": "1249",
+        "partner_user_demographic_value": "35"
+      },
+      {
+        "dalia_demographic_value": "female_17",
+        "partner_user_demographic_key": "1249",
+        "partner_user_demographic_value": "36"
+      },
+      {
+        "dalia_demographic_value": "none",
+        "partner_user_demographic_key": "1249",
+        "partner_user_demographic_value": "-3105"
+      }
+    ],
+    "multiple_choice": true,
+    "dalia_demographic_key": "children_ages"
+  },
+  {
+    "values": [
+      {
+        "dalia_demographic_value": "level_1",
+        "partner_user_demographic_key": "61076",
+        "partner_user_demographic_value": "1"
+      },
+      {
+        "dalia_demographic_value": "level_2",
+        "partner_user_demographic_key": "61076",
+        "partner_user_demographic_value": "2"
+      },
+      {
+        "dalia_demographic_value": "level_3",
+        "partner_user_demographic_key": "61076",
+        "partner_user_demographic_value": "3"
+      },
+      {
+        "dalia_demographic_value": "level_4",
+        "partner_user_demographic_key": "61076",
+        "partner_user_demographic_value": "4"
+      },
+      {
+        "dalia_demographic_value": "level_5",
+        "partner_user_demographic_key": "61076",
+        "partner_user_demographic_value": "5"
+      },
+      {
+        "dalia_demographic_value": "level_6",
+        "partner_user_demographic_key": "61076",
+        "partner_user_demographic_value": "6"
+      },
+      {
+        "dalia_demographic_value": "level_7",
+        "partner_user_demographic_key": "61076",
+        "partner_user_demographic_value": "7"
+      },
+      {
+        "dalia_demographic_value": "level_8",
+        "partner_user_demographic_key": "61076",
+        "partner_user_demographic_value": "8"
+      },
+      {
+        "dalia_demographic_value": "level_9",
+        "partner_user_demographic_key": "61076",
+        "partner_user_demographic_value": "9"
+      },
+      {
+        "dalia_demographic_value": "level_10",
+        "partner_user_demographic_key": "61076",
+        "partner_user_demographic_value": "10"
+      },
+      {
+        "dalia_demographic_value": "level_11",
+        "partner_user_demographic_key": "61076",
+        "partner_user_demographic_value": "11"
+      },
+      {
+        "dalia_demographic_value": "level_12",
+        "partner_user_demographic_key": "61076",
+        "partner_user_demographic_value": "12"
+      },
+      {
+        "dalia_demographic_value": "level_13",
+        "partner_user_demographic_key": "61076",
+        "partner_user_demographic_value": "13"
+      },
+      {
+        "dalia_demographic_value": "level_14",
+        "partner_user_demographic_key": "61076",
+        "partner_user_demographic_value": "14"
+      },
+      {
+        "dalia_demographic_value": "level_15",
+        "partner_user_demographic_key": "61076",
+        "partner_user_demographic_value": "15"
+      },
+      {
+        "dalia_demographic_value": "level_16",
+        "partner_user_demographic_key": "61076",
+        "partner_user_demographic_value": "16"
+      },
+      {
+        "dalia_demographic_value": "level_17",
+        "partner_user_demographic_key": "61076",
+        "partner_user_demographic_value": "17"
+      },
+      {
+        "dalia_demographic_value": "level_18",
+        "partner_user_demographic_key": "61076",
+        "partner_user_demographic_value": "18"
+      },
+      {
+        "dalia_demographic_value": "level_19",
+        "partner_user_demographic_key": "61076",
+        "partner_user_demographic_value": "19"
+      },
+      {
+        "dalia_demographic_value": "level_20",
+        "partner_user_demographic_key": "61076",
+        "partner_user_demographic_value": "20"
+      },
+      {
+        "dalia_demographic_value": "level_21",
+        "partner_user_demographic_key": "61076",
+        "partner_user_demographic_value": "21"
+      },
+      {
+        "dalia_demographic_value": "level_22",
+        "partner_user_demographic_key": "61076",
+        "partner_user_demographic_value": "22"
+      },
+      {
+        "dalia_demographic_value": "level_23",
+        "partner_user_demographic_key": "61076",
+        "partner_user_demographic_value": "23"
+      },
+      {
+        "dalia_demographic_value": "level_24",
+        "partner_user_demographic_key": "61076",
+        "partner_user_demographic_value": "24"
+      },
+      {
+        "dalia_demographic_value": "no_answer",
+        "partner_user_demographic_key": "61076",
+        "partner_user_demographic_value": "-3105"
+      }
+    ],
+    "dalia_demographic_key": "household_income"
+  },
+  {
+    "values": [
+      {
+        "dalia_demographic_value": "acne",
+        "partner_user_demographic_key": "759",
+        "partner_user_demographic_value": "1"
+      },
+      {
+        "dalia_demographic_value": "add_adhd",
+        "partner_user_demographic_key": "759",
+        "partner_user_demographic_value": "2"
+      },
+      {
+        "dalia_demographic_value": "allergies_nohayfever",
+        "partner_user_demographic_key": "759",
+        "partner_user_demographic_value": "3"
+      },
+      {
+        "dalia_demographic_value": "anemia",
+        "partner_user_demographic_key": "759",
+        "partner_user_demographic_value": "4"
+      },
+      {
+        "dalia_demographic_value": "angina",
+        "partner_user_demographic_key": "759",
+        "partner_user_demographic_value": "5"
+      },
+      {
+        "dalia_demographic_value": "anxiett",
+        "partner_user_demographic_key": "759",
+        "partner_user_demographic_value": "6"
+      },
+      {
+        "dalia_demographic_value": "arrhythmia",
+        "partner_user_demographic_key": "759",
+        "partner_user_demographic_value": "7"
+      },
+      {
+        "dalia_demographic_value": "arthritis",
+        "partner_user_demographic_key": "759",
+        "partner_user_demographic_value": "8"
+      },
+      {
+        "dalia_demographic_value": "asthma",
+        "partner_user_demographic_key": "759",
+        "partner_user_demographic_value": "9"
+      },
+      {
+        "dalia_demographic_value": "back_pain",
+        "partner_user_demographic_key": "759",
+        "partner_user_demographic_value": "10"
+      },
+      {
+        "dalia_demographic_value": "bipolar",
+        "partner_user_demographic_key": "759",
+        "partner_user_demographic_value": "11"
+      },
+      {
+        "dalia_demographic_value": "blood_disorder",
+        "partner_user_demographic_key": "759",
+        "partner_user_demographic_value": "12"
+      },
+      {
+        "dalia_demographic_value": "bronchitis",
+        "partner_user_demographic_key": "759",
+        "partner_user_demographic_value": "13"
+      },
+      {
+        "dalia_demographic_value": "cancer",
+        "partner_user_demographic_key": "759",
+        "partner_user_demographic_value": "14"
+      },
+      {
+        "dalia_demographic_value": "cardio_disease",
+        "partner_user_demographic_key": "759",
+        "partner_user_demographic_value": "15"
+      },
+      {
+        "dalia_demographic_value": "carpal_tinner",
+        "partner_user_demographic_key": "759",
+        "partner_user_demographic_value": "16"
+      },
+      {
+        "dalia_demographic_value": "chronic_fatigue",
+        "partner_user_demographic_key": "759",
+        "partner_user_demographic_value": "17"
+      },
+      {
+        "dalia_demographic_value": "chronic_kidney",
+        "partner_user_demographic_key": "759",
+        "partner_user_demographic_value": "18"
+      },
+      {
+        "dalia_demographic_value": "chronic_leukemia",
+        "partner_user_demographic_key": "759",
+        "partner_user_demographic_value": "19"
+      },
+      {
+        "dalia_demographic_value": "copd",
+        "partner_user_demographic_key": "759",
+        "partner_user_demographic_value": "20"
+      },
+      {
+        "dalia_demographic_value": "cirrhosis",
+        "partner_user_demographic_key": "759",
+        "partner_user_demographic_value": "21"
+      },
+      {
+        "dalia_demographic_value": "colitis",
+        "partner_user_demographic_key": "759",
+        "partner_user_demographic_value": "22"
+      },
+      {
+        "dalia_demographic_value": "constipation",
+        "partner_user_demographic_key": "759",
+        "partner_user_demographic_value": "23"
+      },
+      {
+        "dalia_demographic_value": "crohns",
+        "partner_user_demographic_key": "759",
+        "partner_user_demographic_value": "24"
+      },
+      {
+        "dalia_demographic_value": "cystic_fibrosis",
+        "partner_user_demographic_key": "759",
+        "partner_user_demographic_value": "25"
+      },
+      {
+        "dalia_demographic_value": "dementia",
+        "partner_user_demographic_key": "759",
+        "partner_user_demographic_value": "49"
+      },
+      {
+        "dalia_demographic_value": "dental_problems",
+        "partner_user_demographic_key": "759",
+        "partner_user_demographic_value": "26"
+      },
+      {
+        "dalia_demographic_value": "depression",
+        "partner_user_demographic_key": "759",
+        "partner_user_demographic_value": "27"
+      },
+      {
+        "dalia_demographic_value": "diabetes",
+        "partner_user_demographic_key": "759",
+        "partner_user_demographic_value": "28"
+      },
+      {
+        "dalia_demographic_value": "diarrhea",
+        "partner_user_demographic_key": "759",
+        "partner_user_demographic_value": "29"
+      },
+      {
+        "dalia_demographic_value": "eczema",
+        "partner_user_demographic_key": "759",
+        "partner_user_demographic_value": "30"
+      },
+      {
+        "dalia_demographic_value": "emphysema",
+        "partner_user_demographic_key": "759",
+        "partner_user_demographic_value": "31"
+      },
+      {
+        "dalia_demographic_value": "endometriosis",
+        "partner_user_demographic_key": "759",
+        "partner_user_demographic_value": "32"
+      },
+      {
+        "dalia_demographic_value": "epilepsy",
+        "partner_user_demographic_key": "759",
+        "partner_user_demographic_value": "33"
+      },
+      {
+        "dalia_demographic_value": "erectile_dys",
+        "partner_user_demographic_key": "759",
+        "partner_user_demographic_value": "34"
+      },
+      {
+        "dalia_demographic_value": "fibromyalgia",
+        "partner_user_demographic_key": "759",
+        "partner_user_demographic_value": "35"
+      },
+      {
+        "dalia_demographic_value": "food_intolerances",
+        "partner_user_demographic_key": "759",
+        "partner_user_demographic_value": "36"
+      },
+      {
+        "dalia_demographic_value": "gerd",
+        "partner_user_demographic_key": "759",
+        "partner_user_demographic_value": "37"
+      },
+      {
+        "dalia_demographic_value": "gastro",
+        "partner_user_demographic_key": "759",
+        "partner_user_demographic_value": "38"
+      },
+      {
+        "dalia_demographic_value": "gout",
+        "partner_user_demographic_key": "759",
+        "partner_user_demographic_value": "39"
+      },
+      {
+        "dalia_demographic_value": "hemophilia",
+        "partner_user_demographic_key": "759",
+        "partner_user_demographic_value": "40"
+      },
+      {
+        "dalia_demographic_value": "hemorrhoids",
+        "partner_user_demographic_key": "759",
+        "partner_user_demographic_value": "41"
+      },
+      {
+        "dalia_demographic_value": "hay_fever",
+        "partner_user_demographic_key": "759",
+        "partner_user_demographic_value": "42"
+      },
+      {
+        "dalia_demographic_value": "heart_conditions",
+        "partner_user_demographic_key": "759",
+        "partner_user_demographic_value": "43"
+      },
+      {
+        "dalia_demographic_value": "heart_failure",
+        "partner_user_demographic_key": "759",
+        "partner_user_demographic_value": "44"
+      },
+      {
+        "dalia_demographic_value": "no_illness_1",
+        "partner_user_demographic_key": "759",
+        "partner_user_demographic_value": "45"
+      },
+      {
+        "dalia_demographic_value": "other",
+        "partner_user_demographic_key": "759",
+        "partner_user_demographic_value": "46"
+      },
+      {
+        "dalia_demographic_value": "no_answer",
+        "partner_user_demographic_key": "759",
+        "partner_user_demographic_value": "47"
+      },
+      {
+        "dalia_demographic_value": "alzheimer",
+        "partner_user_demographic_key": "759",
+        "partner_user_demographic_value": "48"
+      },
+      {
+        "dalia_demographic_value": "none",
+        "partner_user_demographic_key": "759",
+        "partner_user_demographic_value": "-3105"
+      }
+    ],
+    "dalia_demographic_key": "diagnosed_ailments"
+  },
+  {
+    "values": [
+      {
+        "dalia_demographic_value": "hepatitis",
+        "partner_user_demographic_key": "760",
+        "partner_user_demographic_value": "1"
+      },
+      {
+        "dalia_demographic_value": "high_cholesterol",
+        "partner_user_demographic_key": "760",
+        "partner_user_demographic_value": "2"
+      },
+      {
+        "dalia_demographic_value": "hiv",
+        "partner_user_demographic_key": "760",
+        "partner_user_demographic_value": "3"
+      },
+      {
+        "dalia_demographic_value": "hypertension",
+        "partner_user_demographic_key": "760",
+        "partner_user_demographic_value": "4"
+      },
+      {
+        "dalia_demographic_value": "hypothyroidism",
+        "partner_user_demographic_key": "760",
+        "partner_user_demographic_value": "5"
+      },
+      {
+        "dalia_demographic_value": "impotence",
+        "partner_user_demographic_key": "760",
+        "partner_user_demographic_value": "6"
+      },
+      {
+        "dalia_demographic_value": "infertility",
+        "partner_user_demographic_key": "760",
+        "partner_user_demographic_value": "7"
+      },
+      {
+        "dalia_demographic_value": "ibs",
+        "partner_user_demographic_key": "760",
+        "partner_user_demographic_value": "8"
+      },
+      {
+        "dalia_demographic_value": "joint_replacement",
+        "partner_user_demographic_key": "760",
+        "partner_user_demographic_value": "9"
+      },
+      {
+        "dalia_demographic_value": "kidney_failure",
+        "partner_user_demographic_key": "760",
+        "partner_user_demographic_value": "10"
+      },
+      {
+        "dalia_demographic_value": "liver_cirrhosis",
+        "partner_user_demographic_key": "760",
+        "partner_user_demographic_value": "11"
+      },
+      {
+        "dalia_demographic_value": "liver_disorder",
+        "partner_user_demographic_key": "760",
+        "partner_user_demographic_value": "12"
+      },
+      {
+        "dalia_demographic_value": "lupus",
+        "partner_user_demographic_key": "760",
+        "partner_user_demographic_value": "13"
+      },
+      {
+        "dalia_demographic_value": "lyme",
+        "partner_user_demographic_key": "760",
+        "partner_user_demographic_value": "14"
+      },
+      {
+        "dalia_demographic_value": "menopause",
+        "partner_user_demographic_key": "760",
+        "partner_user_demographic_value": "15"
+      },
+      {
+        "dalia_demographic_value": "migraine",
+        "partner_user_demographic_key": "760",
+        "partner_user_demographic_value": "16"
+      },
+      {
+        "dalia_demographic_value": "motor_neuron",
+        "partner_user_demographic_key": "760",
+        "partner_user_demographic_value": "17"
+      },
+      {
+        "dalia_demographic_value": "multiple_sclerosis",
+        "partner_user_demographic_key": "760",
+        "partner_user_demographic_value": "18"
+      },
+      {
+        "dalia_demographic_value": "obesity",
+        "partner_user_demographic_key": "760",
+        "partner_user_demographic_value": "19"
+      },
+      {
+        "dalia_demographic_value": "osteoarthritis",
+        "partner_user_demographic_key": "760",
+        "partner_user_demographic_value": "20"
+      },
+      {
+        "dalia_demographic_value": "osteoporosis",
+        "partner_user_demographic_key": "760",
+        "partner_user_demographic_value": "21"
+      },
+      {
+        "dalia_demographic_value": "bladder",
+        "partner_user_demographic_key": "760",
+        "partner_user_demographic_value": "22"
+      },
+      {
+        "dalia_demographic_value": "parkinsons",
+        "partner_user_demographic_key": "760",
+        "partner_user_demographic_value": "23"
+      },
+      {
+        "dalia_demographic_value": "pneumonia",
+        "partner_user_demographic_key": "760",
+        "partner_user_demographic_value": "24"
+      },
+      {
+        "dalia_demographic_value": "pre_ejac",
+        "partner_user_demographic_key": "760",
+        "partner_user_demographic_value": "25"
+      },
+      {
+        "dalia_demographic_value": "psoriasis",
+        "partner_user_demographic_key": "760",
+        "partner_user_demographic_value": "26"
+      },
+      {
+        "dalia_demographic_value": "reflux",
+        "partner_user_demographic_key": "760",
+        "partner_user_demographic_value": "27"
+      },
+      {
+        "dalia_demographic_value": "restless_leg",
+        "partner_user_demographic_key": "760",
+        "partner_user_demographic_value": "28"
+      },
+      {
+        "dalia_demographic_value": "rheumatoid_art",
+        "partner_user_demographic_key": "760",
+        "partner_user_demographic_value": "29"
+      },
+      {
+        "dalia_demographic_value": "schizo",
+        "partner_user_demographic_key": "760",
+        "partner_user_demographic_value": "30"
+      },
+      {
+        "dalia_demographic_value": "shingles",
+        "partner_user_demographic_key": "760",
+        "partner_user_demographic_value": "31"
+      },
+      {
+        "dalia_demographic_value": "sinusitis",
+        "partner_user_demographic_key": "760",
+        "partner_user_demographic_value": "32"
+      },
+      {
+        "dalia_demographic_value": "sleeping_disorder",
+        "partner_user_demographic_key": "760",
+        "partner_user_demographic_value": "33"
+      },
+      {
+        "dalia_demographic_value": "smoking_addiction",
+        "partner_user_demographic_key": "760",
+        "partner_user_demographic_value": "34"
+      },
+      {
+        "dalia_demographic_value": "stroke",
+        "partner_user_demographic_key": "760",
+        "partner_user_demographic_value": "35"
+      },
+      {
+        "dalia_demographic_value": "substance_abuse",
+        "partner_user_demographic_key": "760",
+        "partner_user_demographic_value": "36"
+      },
+      {
+        "dalia_demographic_value": "syphilis",
+        "partner_user_demographic_key": "760",
+        "partner_user_demographic_value": "37"
+      },
+      {
+        "dalia_demographic_value": "thyroid_problems",
+        "partner_user_demographic_key": "760",
+        "partner_user_demographic_value": "38"
+      },
+      {
+        "dalia_demographic_value": "tuberculosis",
+        "partner_user_demographic_key": "760",
+        "partner_user_demographic_value": "39"
+      },
+      {
+        "dalia_demographic_value": "ulcer_colitis",
+        "partner_user_demographic_key": "760",
+        "partner_user_demographic_value": "40"
+      },
+      {
+        "dalia_demographic_value": "ulcer",
+        "partner_user_demographic_key": "760",
+        "partner_user_demographic_value": "41"
+      },
+      {
+        "dalia_demographic_value": "urinary",
+        "partner_user_demographic_key": "760",
+        "partner_user_demographic_value": "42"
+      },
+      {
+        "dalia_demographic_value": "no_illness",
+        "partner_user_demographic_key": "760",
+        "partner_user_demographic_value": "43"
+      },
+      {
+        "dalia_demographic_value": "other",
+        "partner_user_demographic_key": "760",
+        "partner_user_demographic_value": "44"
+      },
+      {
+        "dalia_demographic_value": "no_answer",
+        "partner_user_demographic_key": "760",
+        "partner_user_demographic_value": "45"
+      },
+      {
+        "dalia_demographic_value": "none",
+        "partner_user_demographic_key": "760",
+        "partner_user_demographic_value": "-3105"
+      },
+      {
+        "dalia_demographic_value": "high_cholesterol",
+        "partner_user_demographic_key": "3920",
+        "partner_user_demographic_value": "2"
+      },
+      {
+        "dalia_demographic_value": "ibs",
+        "partner_user_demographic_key": "3920",
+        "partner_user_demographic_value": "8"
+      },
+      {
+        "dalia_demographic_value": "joint_replacement",
+        "partner_user_demographic_key": "3920",
+        "partner_user_demographic_value": "9"
+      },
+      {
+        "dalia_demographic_value": "kidney_failure",
+        "partner_user_demographic_key": "3920",
+        "partner_user_demographic_value": "10"
+      },
+      {
+        "dalia_demographic_value": "liver_cirrhosis",
+        "partner_user_demographic_key": "3920",
+        "partner_user_demographic_value": "11"
+      },
+      {
+        "dalia_demographic_value": "liver_disorder",
+        "partner_user_demographic_key": "3920",
+        "partner_user_demographic_value": "12"
+      },
+      {
+        "dalia_demographic_value": "lupus",
+        "partner_user_demographic_key": "3920",
+        "partner_user_demographic_value": "13"
+      },
+      {
+        "dalia_demographic_value": "lyme",
+        "partner_user_demographic_key": "3920",
+        "partner_user_demographic_value": "14"
+      },
+      {
+        "dalia_demographic_value": "pre_ejac",
+        "partner_user_demographic_key": "3920",
+        "partner_user_demographic_value": "25"
+      },
+      {
+        "dalia_demographic_value": "reflux",
+        "partner_user_demographic_key": "3920",
+        "partner_user_demographic_value": "27"
+      },
+      {
+        "dalia_demographic_value": "schizo",
+        "partner_user_demographic_key": "3920",
+        "partner_user_demographic_value": "30"
+      },
+      {
+        "dalia_demographic_value": "shingles",
+        "partner_user_demographic_key": "3920",
+        "partner_user_demographic_value": "31"
+      },
+      {
+        "dalia_demographic_value": "sleeping_disorder",
+        "partner_user_demographic_key": "3920",
+        "partner_user_demographic_value": "33"
+      },
+      {
+        "dalia_demographic_value": "syphilis",
+        "partner_user_demographic_key": "3920",
+        "partner_user_demographic_value": "37"
+      },
+      {
+        "dalia_demographic_value": "thyroid_problems",
+        "partner_user_demographic_key": "3920",
+        "partner_user_demographic_value": "38"
+      },
+      {
+        "dalia_demographic_value": "ulcer_colitis",
+        "partner_user_demographic_key": "3920",
+        "partner_user_demographic_value": "40"
+      },
+      {
+        "dalia_demographic_value": "none",
+        "partner_user_demographic_key": "3920",
+        "partner_user_demographic_value": "-3105"
+      },
+      {
+        "dalia_demographic_value": "hepatitis",
+        "partner_user_demographic_key": "3920",
+        "partner_user_demographic_value": "1"
+      },
+      {
+        "dalia_demographic_value": "hiv",
+        "partner_user_demographic_key": "3920",
+        "partner_user_demographic_value": "3"
+      },
+      {
+        "dalia_demographic_value": "hypertension",
+        "partner_user_demographic_key": "3920",
+        "partner_user_demographic_value": "4"
+      },
+      {
+        "dalia_demographic_value": "hypothyroidism",
+        "partner_user_demographic_key": "3920",
+        "partner_user_demographic_value": "5"
+      },
+      {
+        "dalia_demographic_value": "impotence",
+        "partner_user_demographic_key": "3920",
+        "partner_user_demographic_value": "6"
+      },
+      {
+        "dalia_demographic_value": "infertility",
+        "partner_user_demographic_key": "3920",
+        "partner_user_demographic_value": "7"
+      },
+      {
+        "dalia_demographic_value": "menopause",
+        "partner_user_demographic_key": "3920",
+        "partner_user_demographic_value": "15"
+      },
+      {
+        "dalia_demographic_value": "migraine",
+        "partner_user_demographic_key": "3920",
+        "partner_user_demographic_value": "16"
+      },
+      {
+        "dalia_demographic_value": "motor_neuron",
+        "partner_user_demographic_key": "3920",
+        "partner_user_demographic_value": "17"
+      },
+      {
+        "dalia_demographic_value": "multiple_sclerosis",
+        "partner_user_demographic_key": "3920",
+        "partner_user_demographic_value": "18"
+      },
+      {
+        "dalia_demographic_value": "obesity",
+        "partner_user_demographic_key": "3920",
+        "partner_user_demographic_value": "19"
+      },
+      {
+        "dalia_demographic_value": "osteoarthritis",
+        "partner_user_demographic_key": "3920",
+        "partner_user_demographic_value": "20"
+      },
+      {
+        "dalia_demographic_value": "osteoporosis",
+        "partner_user_demographic_key": "3920",
+        "partner_user_demographic_value": "21"
+      },
+      {
+        "dalia_demographic_value": "bladder",
+        "partner_user_demographic_key": "3920",
+        "partner_user_demographic_value": "22"
+      },
+      {
+        "dalia_demographic_value": "parkinsons",
+        "partner_user_demographic_key": "3920",
+        "partner_user_demographic_value": "23"
+      },
+      {
+        "dalia_demographic_value": "pneumonia",
+        "partner_user_demographic_key": "3920",
+        "partner_user_demographic_value": "24"
+      },
+      {
+        "dalia_demographic_value": "psoriasis",
+        "partner_user_demographic_key": "3920",
+        "partner_user_demographic_value": "26"
+      },
+      {
+        "dalia_demographic_value": "restless_leg",
+        "partner_user_demographic_key": "3920",
+        "partner_user_demographic_value": "28"
+      },
+      {
+        "dalia_demographic_value": "rheumatoid_art",
+        "partner_user_demographic_key": "3920",
+        "partner_user_demographic_value": "29"
+      },
+      {
+        "dalia_demographic_value": "sinusitis",
+        "partner_user_demographic_key": "3920",
+        "partner_user_demographic_value": "32"
+      },
+      {
+        "dalia_demographic_value": "smoking_addiction",
+        "partner_user_demographic_key": "3920",
+        "partner_user_demographic_value": "34"
+      },
+      {
+        "dalia_demographic_value": "stroke",
+        "partner_user_demographic_key": "3920",
+        "partner_user_demographic_value": "35"
+      },
+      {
+        "dalia_demographic_value": "substance_abuse",
+        "partner_user_demographic_key": "3920",
+        "partner_user_demographic_value": "36"
+      },
+      {
+        "dalia_demographic_value": "tuberculosis",
+        "partner_user_demographic_key": "3920",
+        "partner_user_demographic_value": "39"
+      },
+      {
+        "dalia_demographic_value": "ulcer",
+        "partner_user_demographic_key": "3920",
+        "partner_user_demographic_value": "41"
+      },
+      {
+        "dalia_demographic_value": "urinary",
+        "partner_user_demographic_key": "3920",
+        "partner_user_demographic_value": "42"
+      },
+      {
+        "dalia_demographic_value": "no_illness",
+        "partner_user_demographic_key": "3920",
+        "partner_user_demographic_value": "43"
+      },
+      {
+        "dalia_demographic_value": "other",
+        "partner_user_demographic_key": "3920",
+        "partner_user_demographic_value": "44"
+      },
+      {
+        "dalia_demographic_value": "no_answer",
+        "partner_user_demographic_key": "3920",
+        "partner_user_demographic_value": "45"
+      }
+    ],
+    "dalia_demographic_key": "diagnosed_ailments_II"
+  },
+  {
+    "values": [
+      {
+        "dalia_demographic_value": "asian",
+        "partner_user_demographic_key": "32353",
+        "partner_user_demographic_value": "1"
+      },
+      {
+        "dalia_demographic_value": "black",
+        "partner_user_demographic_key": "32353",
+        "partner_user_demographic_value": "2"
+      },
+      {
+        "dalia_demographic_value": "british",
+        "partner_user_demographic_key": "32353",
+        "partner_user_demographic_value": "3"
+      },
+      {
+        "dalia_demographic_value": "eastern_european",
+        "partner_user_demographic_key": "32353",
+        "partner_user_demographic_value": "4"
+      },
+      {
+        "dalia_demographic_value": "hispanic",
+        "partner_user_demographic_key": "32353",
+        "partner_user_demographic_value": "5"
+      },
+      {
+        "dalia_demographic_value": "mid_eastern",
+        "partner_user_demographic_key": "32353",
+        "partner_user_demographic_value": "6"
+      },
+      {
+        "dalia_demographic_value": "south_asian",
+        "partner_user_demographic_key": "32353",
+        "partner_user_demographic_value": "7"
+      },
+      {
+        "dalia_demographic_value": "south_east_asian",
+        "partner_user_demographic_key": "32353",
+        "partner_user_demographic_value": "8"
+      },
+      {
+        "dalia_demographic_value": "western_european",
+        "partner_user_demographic_key": "32353",
+        "partner_user_demographic_value": "9"
+      },
+      {
+        "dalia_demographic_value": "first_nations",
+        "partner_user_demographic_key": "32353",
+        "partner_user_demographic_value": "10"
+      },
+      {
+        "dalia_demographic_value": "other",
+        "partner_user_demographic_key": "32353",
+        "partner_user_demographic_value": "11"
+      }
+    ],
+    "dalia_demographic_key": "ca_ethnicity"
+  },
+  {
+    "values": [
+      {
+        "dalia_demographic_value": "cats",
+        "partner_user_demographic_key": "639",
+        "partner_user_demographic_value": "1"
+      },
+      {
+        "dalia_demographic_value": "dogs",
+        "partner_user_demographic_key": "639",
+        "partner_user_demographic_value": "2"
+      },
+      {
+        "dalia_demographic_value": "birds",
+        "partner_user_demographic_key": "639",
+        "partner_user_demographic_value": "3"
+      },
+      {
+        "dalia_demographic_value": "fish",
+        "partner_user_demographic_key": "639",
+        "partner_user_demographic_value": "4"
+      },
+      {
+        "dalia_demographic_value": "amphibians",
+        "partner_user_demographic_key": "639",
+        "partner_user_demographic_value": "5"
+      },
+      {
+        "dalia_demographic_value": "rodents",
+        "partner_user_demographic_key": "639",
+        "partner_user_demographic_value": "6"
+      },
+      {
+        "dalia_demographic_value": "reptiles",
+        "partner_user_demographic_key": "639",
+        "partner_user_demographic_value": "7"
+      },
+      {
+        "dalia_demographic_value": "horses",
+        "partner_user_demographic_key": "639",
+        "partner_user_demographic_value": "8"
+      },
+      {
+        "dalia_demographic_value": "no_pets",
+        "partner_user_demographic_key": "639",
+        "partner_user_demographic_value": "9"
+      },
+      {
+        "dalia_demographic_value": "other",
+        "partner_user_demographic_key": "639",
+        "partner_user_demographic_value": "10"
+      }
+    ],
+    "dalia_demographic_key": "pet_ownership"
+  },
+  {
+    "values": [
+      {
+        "dalia_demographic_value": "spanish_always",
+        "partner_user_demographic_key": "32352",
+        "partner_user_demographic_value": "1"
+      },
+      {
+        "dalia_demographic_value": "spanish_mostly",
+        "partner_user_demographic_key": "32352",
+        "partner_user_demographic_value": "2"
+      },
+      {
+        "dalia_demographic_value": "spanish_english_equally",
+        "partner_user_demographic_key": "32352",
+        "partner_user_demographic_value": "3"
+      },
+      {
+        "dalia_demographic_value": "english_mostly",
+        "partner_user_demographic_key": "32352",
+        "partner_user_demographic_value": "4"
+      },
+      {
+        "dalia_demographic_value": "english_always",
+        "partner_user_demographic_key": "32352",
+        "partner_user_demographic_value": "5"
+      },
+      {
+        "dalia_demographic_value": "spanish_always",
+        "partner_user_demographic_key": "377",
+        "partner_user_demographic_value": "1"
+      },
+      {
+        "dalia_demographic_value": "spanish_mostly",
+        "partner_user_demographic_key": "377",
+        "partner_user_demographic_value": "2"
+      },
+      {
+        "dalia_demographic_value": "spanish_english_equally",
+        "partner_user_demographic_key": "377",
+        "partner_user_demographic_value": "3"
+      },
+      {
+        "dalia_demographic_value": "english_mostly",
+        "partner_user_demographic_key": "377",
+        "partner_user_demographic_value": "4"
+      },
+      {
+        "dalia_demographic_value": "english_always",
+        "partner_user_demographic_key": "377",
+        "partner_user_demographic_value": "5"
+      }
+    ],
+    "dalia_demographic_key": "hispanic_acculturation"
+  },
+  {
+    "values": [
+      {
+        "dalia_demographic_value": "democrat",
+        "partner_user_demographic_key": "32350",
+        "partner_user_demographic_value": "1"
+      },
+      {
+        "dalia_demographic_value": "republican",
+        "partner_user_demographic_key": "32350",
+        "partner_user_demographic_value": "2"
+      },
+      {
+        "dalia_demographic_value": "independent",
+        "partner_user_demographic_key": "32350",
+        "partner_user_demographic_value": "3"
+      },
+      {
+        "dalia_demographic_value": "no_answer",
+        "partner_user_demographic_key": "32350",
+        "partner_user_demographic_value": "4"
+      }
+    ],
+    "dalia_demographic_key": "political_party_us"
+  },
+  {
+    "values": [
+      {
+        "dalia_demographic_value": "less_1500",
+        "partner_user_demographic_key": "61190",
+        "partner_user_demographic_value": "1"
+      },
+      {
+        "dalia_demographic_value": "1500_7499",
+        "partner_user_demographic_key": "61190",
+        "partner_user_demographic_value": "1"
+      },
+      {
+        "dalia_demographic_value": "7500_9999",
+        "partner_user_demographic_key": "61190",
+        "partner_user_demographic_value": "1"
+      },
+      {
+        "dalia_demographic_value": "10000_14999",
+        "partner_user_demographic_key": "61190",
+        "partner_user_demographic_value": "1"
+      },
+      {
+        "dalia_demographic_value": "15000_24999",
+        "partner_user_demographic_key": "61190",
+        "partner_user_demographic_value": "1"
+      },
+      {
+        "dalia_demographic_value": "25000_49999",
+        "partner_user_demographic_key": "61190",
+        "partner_user_demographic_value": "1"
+      },
+      {
+        "dalia_demographic_value": "50000_74999",
+        "partner_user_demographic_key": "61190",
+        "partner_user_demographic_value": "2"
+      },
+      {
+        "dalia_demographic_value": "75000_99999",
+        "partner_user_demographic_key": "61190",
+        "partner_user_demographic_value": "3"
+      },
+      {
+        "dalia_demographic_value": "100000_149999",
+        "partner_user_demographic_key": "61190",
+        "partner_user_demographic_value": "4"
+      },
+      {
+        "dalia_demographic_value": "150000_199999",
+        "partner_user_demographic_key": "61190",
+        "partner_user_demographic_value": "5"
+      },
+      {
+        "dalia_demographic_value": "200000_249999",
+        "partner_user_demographic_key": "61190",
+        "partner_user_demographic_value": "6"
+      },
+      {
+        "dalia_demographic_value": "250000_299999",
+        "partner_user_demographic_key": "61190",
+        "partner_user_demographic_value": "6"
+      },
+      {
+        "dalia_demographic_value": "300000_499999",
+        "partner_user_demographic_key": "61190",
+        "partner_user_demographic_value": "6"
+      },
+      {
+        "dalia_demographic_value": "500000_749999",
+        "partner_user_demographic_key": "61190",
+        "partner_user_demographic_value": "7"
+      },
+      {
+        "dalia_demographic_value": "750000_999999",
+        "partner_user_demographic_key": "61190",
+        "partner_user_demographic_value": "7"
+      },
+      {
+        "dalia_demographic_value": "1000000_1999999",
+        "partner_user_demographic_key": "61190",
+        "partner_user_demographic_value": "8"
+      },
+      {
+        "dalia_demographic_value": "above_2000000",
+        "partner_user_demographic_key": "61190",
+        "partner_user_demographic_value": "8"
+      },
+      {
+        "dalia_demographic_value": "none",
+        "partner_user_demographic_key": "61190",
+        "partner_user_demographic_value": "9"
+      },
+      {
+        "dalia_demographic_value": "no_answer",
+        "partner_user_demographic_key": "61190",
+        "partner_user_demographic_value": "-3105"
+      }
+    ],
+    "dalia_demographic_key": "investable_assets_hh"
+  },
+  {
+    "values": [
+      {
+        "dalia_demographic_value": "smart_home_device",
+        "partner_user_demographic_key": "733",
+        "partner_user_demographic_value": "26"
+      },
+      {
+        "dalia_demographic_value": "blueray_dvd_player",
+        "partner_user_demographic_key": "733",
+        "partner_user_demographic_value": "1"
+      },
+      {
+        "dalia_demographic_value": "tv_led_lcd",
+        "partner_user_demographic_key": "733",
+        "partner_user_demographic_value": "2"
+      },
+      {
+        "dalia_demographic_value": "tv_plasma",
+        "partner_user_demographic_key": "733",
+        "partner_user_demographic_value": "2"
+      },
+      {
+        "dalia_demographic_value": "tv_3d",
+        "partner_user_demographic_key": "733",
+        "partner_user_demographic_value": "3"
+      },
+      {
+        "dalia_demographic_value": "game_console_handheld",
+        "partner_user_demographic_key": "733",
+        "partner_user_demographic_value": "4"
+      },
+      {
+        "dalia_demographic_value": "game_console_nintendo",
+        "partner_user_demographic_key": "733",
+        "partner_user_demographic_value": "5"
+      },
+      {
+        "dalia_demographic_value": "game_console_xbox",
+        "partner_user_demographic_key": "733",
+        "partner_user_demographic_value": "5"
+      },
+      {
+        "dalia_demographic_value": "game_console_playstation",
+        "partner_user_demographic_key": "733",
+        "partner_user_demographic_value": "5"
+      },
+      {
+        "dalia_demographic_value": "game_console_xbox_one",
+        "partner_user_demographic_key": "733",
+        "partner_user_demographic_value": "5"
+      },
+      {
+        "dalia_demographic_value": "game_console_ps4",
+        "partner_user_demographic_key": "733",
+        "partner_user_demographic_value": "5"
+      },
+      {
+        "dalia_demographic_value": "camera_digital_video",
+        "partner_user_demographic_key": "733",
+        "partner_user_demographic_value": "6"
+      },
+      {
+        "dalia_demographic_value": "camera_digital_compact",
+        "partner_user_demographic_key": "733",
+        "partner_user_demographic_value": "7"
+      },
+      {
+        "dalia_demographic_value": "camera_mirrorless_compact",
+        "partner_user_demographic_key": "733",
+        "partner_user_demographic_value": "7"
+      },
+      {
+        "dalia_demographic_value": "camera_digital_slr",
+        "partner_user_demographic_key": "733",
+        "partner_user_demographic_value": "8"
+      },
+      {
+        "dalia_demographic_value": "computer_desktop",
+        "partner_user_demographic_key": "733",
+        "partner_user_demographic_value": "9"
+      },
+      {
+        "dalia_demographic_value": "computer_laptop",
+        "partner_user_demographic_key": "733",
+        "partner_user_demographic_value": "10"
+      },
+      {
+        "dalia_demographic_value": "phone_mobile",
+        "partner_user_demographic_key": "733",
+        "partner_user_demographic_value": "11"
+      },
+      {
+        "dalia_demographic_value": "phone_landline",
+        "partner_user_demographic_key": "733",
+        "partner_user_demographic_value": "12"
+      },
+      {
+        "dalia_demographic_value": "portable_music_player",
+        "partner_user_demographic_key": "733",
+        "partner_user_demographic_value": "13"
+      },
+      {
+        "dalia_demographic_value": "projector",
+        "partner_user_demographic_key": "733",
+        "partner_user_demographic_value": "14"
+      },
+      {
+        "dalia_demographic_value": "scanner",
+        "partner_user_demographic_key": "733",
+        "partner_user_demographic_value": "15"
+      },
+      {
+        "dalia_demographic_value": "cable_satelite_tv",
+        "partner_user_demographic_key": "733",
+        "partner_user_demographic_value": "16"
+      },
+      {
+        "dalia_demographic_value": "digital_tv_receiver",
+        "partner_user_demographic_key": "733",
+        "partner_user_demographic_value": "17"
+      },
+      {
+        "dalia_demographic_value": "printer_lasser",
+        "partner_user_demographic_key": "733",
+        "partner_user_demographic_value": "18"
+      },
+      {
+        "dalia_demographic_value": "printer_ink_jet",
+        "partner_user_demographic_key": "733",
+        "partner_user_demographic_value": "18"
+      },
+      {
+        "dalia_demographic_value": "printer_multifunction",
+        "partner_user_demographic_key": "733",
+        "partner_user_demographic_value": "19"
+      },
+      {
+        "dalia_demographic_value": "wifi_router",
+        "partner_user_demographic_key": "733",
+        "partner_user_demographic_value": "20"
+      },
+      {
+        "dalia_demographic_value": "home_cinema",
+        "partner_user_demographic_key": "733",
+        "partner_user_demographic_value": "21"
+      },
+      {
+        "dalia_demographic_value": "digital_media_receiver",
+        "partner_user_demographic_key": "733",
+        "partner_user_demographic_value": "22"
+      },
+      {
+        "dalia_demographic_value": "tablet_ios",
+        "partner_user_demographic_key": "733",
+        "partner_user_demographic_value": "23"
+      },
+      {
+        "dalia_demographic_value": "tablet_android",
+        "partner_user_demographic_key": "733",
+        "partner_user_demographic_value": "23"
+      },
+      {
+        "dalia_demographic_value": "tablet_windows",
+        "partner_user_demographic_key": "733",
+        "partner_user_demographic_value": "23"
+      },
+      {
+        "dalia_demographic_value": "tablet_other",
+        "partner_user_demographic_key": "733",
+        "partner_user_demographic_value": "23"
+      },
+      {
+        "dalia_demographic_value": "e_reader",
+        "partner_user_demographic_key": "733",
+        "partner_user_demographic_value": "24"
+      },
+      {
+        "dalia_demographic_value": "none_of_above",
+        "partner_user_demographic_key": "733",
+        "partner_user_demographic_value": "-3105"
+      }
+    ],
+    "dalia_demographic_key": "electronic_device_ownership"
+  },
+  {
+    "values": [
+      {
+        "dalia_demographic_value": "beer",
+        "partner_user_demographic_key": "722",
+        "partner_user_demographic_value": "1"
+      },
+      {
+        "dalia_demographic_value": "wine",
+        "partner_user_demographic_key": "722",
+        "partner_user_demographic_value": "2"
+      },
+      {
+        "dalia_demographic_value": "flavored_malt_beverages",
+        "partner_user_demographic_key": "722",
+        "partner_user_demographic_value": "3"
+      },
+      {
+        "dalia_demographic_value": "wine_coolers",
+        "partner_user_demographic_key": "722",
+        "partner_user_demographic_value": "3"
+      },
+      {
+        "dalia_demographic_value": "spirits_liqueurs",
+        "partner_user_demographic_key": "722",
+        "partner_user_demographic_value": "4"
+      },
+      {
+        "dalia_demographic_value": "pre_mixed_alcoholic",
+        "partner_user_demographic_key": "722",
+        "partner_user_demographic_value": "5"
+      },
+      {
+        "dalia_demographic_value": "energy_drinks",
+        "partner_user_demographic_key": "722",
+        "partner_user_demographic_value": "6"
+      },
+      {
+        "dalia_demographic_value": "coffee",
+        "partner_user_demographic_key": "722",
+        "partner_user_demographic_value": "7"
+      },
+      {
+        "dalia_demographic_value": "tea",
+        "partner_user_demographic_key": "722",
+        "partner_user_demographic_value": "8"
+      },
+      {
+        "dalia_demographic_value": "soda_regular",
+        "partner_user_demographic_key": "722",
+        "partner_user_demographic_value": "9"
+      },
+      {
+        "dalia_demographic_value": "soda_diet",
+        "partner_user_demographic_key": "722",
+        "partner_user_demographic_value": "9"
+      },
+      {
+        "dalia_demographic_value": "fruit_juices",
+        "partner_user_demographic_key": "722",
+        "partner_user_demographic_value": "10"
+      },
+      {
+        "dalia_demographic_value": "bottled_water_still",
+        "partner_user_demographic_key": "722",
+        "partner_user_demographic_value": "11"
+      },
+      {
+        "dalia_demographic_value": "bottled_water_sparkling",
+        "partner_user_demographic_key": "722",
+        "partner_user_demographic_value": "11"
+      },
+      {
+        "dalia_demographic_value": "none_of_above",
+        "partner_user_demographic_key": "722",
+        "partner_user_demographic_value": "12"
+      },
+      {
+        "dalia_demographic_value": "coffee",
+        "partner_user_demographic_key": "723",
+        "partner_user_demographic_value": "1"
+      },
+      {
+        "dalia_demographic_value": "tea",
+        "partner_user_demographic_key": "723",
+        "partner_user_demographic_value": "2"
+      },
+      {
+        "dalia_demographic_value": "soda_regular",
+        "partner_user_demographic_key": "723",
+        "partner_user_demographic_value": "3"
+      },
+      {
+        "dalia_demographic_value": "soda_diet",
+        "partner_user_demographic_key": "723",
+        "partner_user_demographic_value": "4"
+      },
+      {
+        "dalia_demographic_value": "energy_drinks",
+        "partner_user_demographic_key": "723",
+        "partner_user_demographic_value": "5"
+      },
+      {
+        "dalia_demographic_value": "sports_drinks",
+        "partner_user_demographic_key": "723",
+        "partner_user_demographic_value": "6"
+      },
+      {
+        "dalia_demographic_value": "bottled_water_still",
+        "partner_user_demographic_key": "723",
+        "partner_user_demographic_value": "7"
+      },
+      {
+        "dalia_demographic_value": "bottled_water_sparkling",
+        "partner_user_demographic_key": "723",
+        "partner_user_demographic_value": "8"
+      },
+      {
+        "dalia_demographic_value": "fruit_juices",
+        "partner_user_demographic_key": "723",
+        "partner_user_demographic_value": "9"
+      },
+      {
+        "dalia_demographic_value": "beer_domestic",
+        "partner_user_demographic_key": "723",
+        "partner_user_demographic_value": "10"
+      },
+      {
+        "dalia_demographic_value": "beer_imported",
+        "partner_user_demographic_key": "723",
+        "partner_user_demographic_value": "11"
+      },
+      {
+        "dalia_demographic_value": "wine_red",
+        "partner_user_demographic_key": "723",
+        "partner_user_demographic_value": "12"
+      },
+      {
+        "dalia_demographic_value": "wine_white",
+        "partner_user_demographic_key": "723",
+        "partner_user_demographic_value": "13"
+      },
+      {
+        "dalia_demographic_value": "wine_rose",
+        "partner_user_demographic_key": "723",
+        "partner_user_demographic_value": "14"
+      },
+      {
+        "dalia_demographic_value": "wine_dessert",
+        "partner_user_demographic_key": "723",
+        "partner_user_demographic_value": "15"
+      },
+      {
+        "dalia_demographic_value": "wine_champagne",
+        "partner_user_demographic_key": "723",
+        "partner_user_demographic_value": "16"
+      },
+      {
+        "dalia_demographic_value": "wine_sparkling",
+        "partner_user_demographic_key": "723",
+        "partner_user_demographic_value": "17"
+      },
+      {
+        "dalia_demographic_value": "vodka",
+        "partner_user_demographic_key": "723",
+        "partner_user_demographic_value": "18"
+      },
+      {
+        "dalia_demographic_value": "rum",
+        "partner_user_demographic_key": "723",
+        "partner_user_demographic_value": "19"
+      },
+      {
+        "dalia_demographic_value": "whiskey",
+        "partner_user_demographic_key": "723",
+        "partner_user_demographic_value": "20"
+      },
+      {
+        "dalia_demographic_value": "scotch",
+        "partner_user_demographic_key": "723",
+        "partner_user_demographic_value": "20"
+      },
+      {
+        "dalia_demographic_value": "bourbon",
+        "partner_user_demographic_key": "723",
+        "partner_user_demographic_value": "20"
+      },
+      {
+        "dalia_demographic_value": "cognac",
+        "partner_user_demographic_key": "723",
+        "partner_user_demographic_value": "21"
+      },
+      {
+        "dalia_demographic_value": "gin",
+        "partner_user_demographic_key": "723",
+        "partner_user_demographic_value": "22"
+      },
+      {
+        "dalia_demographic_value": "tequila",
+        "partner_user_demographic_key": "723",
+        "partner_user_demographic_value": "23"
+      },
+      {
+        "dalia_demographic_value": "brandy",
+        "partner_user_demographic_key": "723",
+        "partner_user_demographic_value": "24"
+      },
+      {
+        "dalia_demographic_value": "wine_port",
+        "partner_user_demographic_key": "723",
+        "partner_user_demographic_value": "25"
+      },
+      {
+        "dalia_demographic_value": "cider",
+        "partner_user_demographic_key": "723",
+        "partner_user_demographic_value": "26"
+      },
+      {
+        "dalia_demographic_value": "alcopops",
+        "partner_user_demographic_key": "723",
+        "partner_user_demographic_value": "27"
+      },
+      {
+        "dalia_demographic_value": "liqueurs_flavored",
+        "partner_user_demographic_key": "723",
+        "partner_user_demographic_value": "28"
+      },
+      {
+        "dalia_demographic_value": "bitter",
+        "partner_user_demographic_key": "723",
+        "partner_user_demographic_value": "28"
+      },
+      {
+        "dalia_demographic_value": "liqueur",
+        "partner_user_demographic_key": "723",
+        "partner_user_demographic_value": "29"
+      },
+      {
+        "dalia_demographic_value": "none_of_above",
+        "partner_user_demographic_key": "723",
+        "partner_user_demographic_value": "30"
+      }
+    ],
+    "dalia_demographic_key": "beverage_consumption"
+  },
+  {
+    "values": [
+      {
+        "dalia_demographic_value": "acura",
+        "partner_user_demographic_key": "649",
+        "partner_user_demographic_value": "1"
+      },
+      {
+        "dalia_demographic_value": "alfa_romeo",
+        "partner_user_demographic_key": "649",
+        "partner_user_demographic_value": "2"
+      },
+      {
+        "dalia_demographic_value": "aston_martin",
+        "partner_user_demographic_key": "649",
+        "partner_user_demographic_value": "49"
+      },
+      {
+        "dalia_demographic_value": "audi",
+        "partner_user_demographic_key": "649",
+        "partner_user_demographic_value": "3"
+      },
+      {
+        "dalia_demographic_value": "bentley",
+        "partner_user_demographic_key": "649",
+        "partner_user_demographic_value": "50"
+      },
+      {
+        "dalia_demographic_value": "bmw",
+        "partner_user_demographic_key": "649",
+        "partner_user_demographic_value": "4"
+      },
+      {
+        "dalia_demographic_value": "buick",
+        "partner_user_demographic_key": "649",
+        "partner_user_demographic_value": "5"
+      },
+      {
+        "dalia_demographic_value": "cadillac",
+        "partner_user_demographic_key": "649",
+        "partner_user_demographic_value": "6"
+      },
+      {
+        "dalia_demographic_value": "chevrolet",
+        "partner_user_demographic_key": "649",
+        "partner_user_demographic_value": "7"
+      },
+      {
+        "dalia_demographic_value": "chrysler",
+        "partner_user_demographic_key": "649",
+        "partner_user_demographic_value": "8"
+      },
+      {
+        "dalia_demographic_value": "dodge",
+        "partner_user_demographic_key": "649",
+        "partner_user_demographic_value": "44"
+      },
+      {
+        "dalia_demographic_value": "ferrari",
+        "partner_user_demographic_key": "649",
+        "partner_user_demographic_value": "9"
+      },
+      {
+        "dalia_demographic_value": "fiat",
+        "partner_user_demographic_key": "649",
+        "partner_user_demographic_value": "10"
+      },
+      {
+        "dalia_demographic_value": "ford",
+        "partner_user_demographic_key": "649",
+        "partner_user_demographic_value": "11"
+      },
+      {
+        "dalia_demographic_value": "genesis",
+        "partner_user_demographic_key": "649",
+        "partner_user_demographic_value": "51"
+      },
+      {
+        "dalia_demographic_value": "gmc",
+        "partner_user_demographic_key": "649",
+        "partner_user_demographic_value": "12"
+      },
+      {
+        "dalia_demographic_value": "honda",
+        "partner_user_demographic_key": "649",
+        "partner_user_demographic_value": "13"
+      },
+      {
+        "dalia_demographic_value": "hummer",
+        "partner_user_demographic_key": "649",
+        "partner_user_demographic_value": "14"
+      },
+      {
+        "dalia_demographic_value": "hyundai",
+        "partner_user_demographic_key": "649",
+        "partner_user_demographic_value": "15"
+      },
+      {
+        "dalia_demographic_value": "infiniti",
+        "partner_user_demographic_key": "649",
+        "partner_user_demographic_value": "16"
+      },
+      {
+        "dalia_demographic_value": "isuzu",
+        "partner_user_demographic_key": "649",
+        "partner_user_demographic_value": "17"
+      },
+      {
+        "dalia_demographic_value": "jaguar",
+        "partner_user_demographic_key": "649",
+        "partner_user_demographic_value": "18"
+      },
+      {
+        "dalia_demographic_value": "jeep",
+        "partner_user_demographic_key": "649",
+        "partner_user_demographic_value": "19"
+      },
+      {
+        "dalia_demographic_value": "kia",
+        "partner_user_demographic_key": "649",
+        "partner_user_demographic_value": "20"
+      },
+      {
+        "dalia_demographic_value": "lamborghini",
+        "partner_user_demographic_key": "649",
+        "partner_user_demographic_value": "21"
+      },
+      {
+        "dalia_demographic_value": "land_rover",
+        "partner_user_demographic_key": "649",
+        "partner_user_demographic_value": "22"
+      },
+      {
+        "dalia_demographic_value": "lexus",
+        "partner_user_demographic_key": "649",
+        "partner_user_demographic_value": "23"
+      },
+      {
+        "dalia_demographic_value": "lincoln",
+        "partner_user_demographic_key": "649",
+        "partner_user_demographic_value": "45"
+      },
+      {
+        "dalia_demographic_value": "maserati",
+        "partner_user_demographic_key": "649",
+        "partner_user_demographic_value": "24"
+      },
+      {
+        "dalia_demographic_value": "mazda",
+        "partner_user_demographic_key": "649",
+        "partner_user_demographic_value": "25"
+      },
+      {
+        "dalia_demographic_value": "mclaren",
+        "partner_user_demographic_key": "649",
+        "partner_user_demographic_value": "52"
+      },
+      {
+        "dalia_demographic_value": "mercedes",
+        "partner_user_demographic_key": "649",
+        "partner_user_demographic_value": "26"
+      },
+      {
+        "dalia_demographic_value": "mercury",
+        "partner_user_demographic_key": "649",
+        "partner_user_demographic_value": "53"
+      },
+      {
+        "dalia_demographic_value": "mg",
+        "partner_user_demographic_key": "649",
+        "partner_user_demographic_value": "27"
+      },
+      {
+        "dalia_demographic_value": "mini",
+        "partner_user_demographic_key": "649",
+        "partner_user_demographic_value": "28"
+      },
+      {
+        "dalia_demographic_value": "mitsubishi",
+        "partner_user_demographic_key": "649",
+        "partner_user_demographic_value": "29"
+      },
+      {
+        "dalia_demographic_value": "nissan",
+        "partner_user_demographic_key": "649",
+        "partner_user_demographic_value": "30"
+      },
+      {
+        "dalia_demographic_value": "pontiac",
+        "partner_user_demographic_key": "649",
+        "partner_user_demographic_value": "31"
+      },
+      {
+        "dalia_demographic_value": "porsche",
+        "partner_user_demographic_key": "649",
+        "partner_user_demographic_value": "32"
+      },
+      {
+        "dalia_demographic_value": "ram",
+        "partner_user_demographic_key": "649",
+        "partner_user_demographic_value": "46"
+      },
+      {
+        "dalia_demographic_value": "rolls_royce",
+        "partner_user_demographic_key": "649",
+        "partner_user_demographic_value": "54"
+      },
+      {
+        "dalia_demographic_value": "rover",
+        "partner_user_demographic_key": "649",
+        "partner_user_demographic_value": "33"
+      },
+      {
+        "dalia_demographic_value": "saab",
+        "partner_user_demographic_key": "649",
+        "partner_user_demographic_value": "34"
+      },
+      {
+        "dalia_demographic_value": "saturn",
+        "partner_user_demographic_key": "649",
+        "partner_user_demographic_value": "35"
+      },
+      {
+        "dalia_demographic_value": "scion",
+        "partner_user_demographic_key": "649",
+        "partner_user_demographic_value": "47"
+      },
+      {
+        "dalia_demographic_value": "smart",
+        "partner_user_demographic_key": "649",
+        "partner_user_demographic_value": "36"
+      },
+      {
+        "dalia_demographic_value": "subaru",
+        "partner_user_demographic_key": "649",
+        "partner_user_demographic_value": "37"
+      },
+      {
+        "dalia_demographic_value": "suzuki",
+        "partner_user_demographic_key": "649",
+        "partner_user_demographic_value": "38"
+      },
+      {
+        "dalia_demographic_value": "tesla",
+        "partner_user_demographic_key": "649",
+        "partner_user_demographic_value": "48"
+      },
+      {
+        "dalia_demographic_value": "toyota",
+        "partner_user_demographic_key": "649",
+        "partner_user_demographic_value": "39"
+      },
+      {
+        "dalia_demographic_value": "volkswagen",
+        "partner_user_demographic_key": "649",
+        "partner_user_demographic_value": "40"
+      },
+      {
+        "dalia_demographic_value": "volvo",
+        "partner_user_demographic_key": "649",
+        "partner_user_demographic_value": "41"
+      },
+      {
+        "dalia_demographic_value": "other",
+        "partner_user_demographic_key": "649",
+        "partner_user_demographic_value": "42"
+      },
+      {
+        "dalia_demographic_value": "no_car",
+        "partner_user_demographic_key": "649",
+        "partner_user_demographic_value": "43"
+      }
+    ],
+    "dalia_demographic_key": "car_brands"
+  },
+  {
+    "values": [
+      {
+        "dalia_demographic_value": "in_6_months",
+        "partner_user_demographic_key": "32355",
+        "partner_user_demographic_value": "1"
+      },
+      {
+        "dalia_demographic_value": "in_6_12_months",
+        "partner_user_demographic_key": "32355",
+        "partner_user_demographic_value": "1"
+      },
+      {
+        "dalia_demographic_value": "next_year",
+        "partner_user_demographic_key": "32355",
+        "partner_user_demographic_value": "2"
+      },
+      {
+        "dalia_demographic_value": "in_2_years",
+        "partner_user_demographic_key": "32355",
+        "partner_user_demographic_value": "3"
+      },
+      {
+        "dalia_demographic_value": "in_3_years",
+        "partner_user_demographic_key": "32355",
+        "partner_user_demographic_value": "4"
+      },
+      {
+        "dalia_demographic_value": "in_4_years",
+        "partner_user_demographic_key": "32355",
+        "partner_user_demographic_value": "5"
+      },
+      {
+        "dalia_demographic_value": "in_5_years",
+        "partner_user_demographic_key": "32355",
+        "partner_user_demographic_value": "6"
+      },
+      {
+        "dalia_demographic_value": "in_6_years",
+        "partner_user_demographic_key": "32355",
+        "partner_user_demographic_value": "7"
+      },
+      {
+        "dalia_demographic_value": "none_of_above",
+        "partner_user_demographic_key": "32355",
+        "partner_user_demographic_value": "8"
+      }
+    ],
+    "dalia_demographic_key": "next_car_purchase_intention"
+  },
+  {
+    "values": [
+      {
+        "dalia_demographic_value": "most_grocery",
+        "partner_user_demographic_key": "30396",
+        "partner_user_demographic_value": "1"
+      },
+      {
+        "dalia_demographic_value": "little_grocery",
+        "partner_user_demographic_key": "30396",
+        "partner_user_demographic_value": "2"
+      },
+      {
+        "dalia_demographic_value": "equally_shared",
+        "partner_user_demographic_key": "30396",
+        "partner_user_demographic_value": "3"
+      }
+    ],
+    "dalia_demographic_key": "grocery_shopper"
+  },
+  {
+    "values": [
+      {
+        "dalia_demographic_value": "5h_or_less",
+        "partner_user_demographic_key": "747",
+        "partner_user_demographic_value": "1"
+      },
+      {
+        "dalia_demographic_value": "6_10h",
+        "partner_user_demographic_key": "747",
+        "partner_user_demographic_value": "2"
+      },
+      {
+        "dalia_demographic_value": "11_20h",
+        "partner_user_demographic_key": "747",
+        "partner_user_demographic_value": "3"
+      },
+      {
+        "dalia_demographic_value": "more_than_20h",
+        "partner_user_demographic_key": "747",
+        "partner_user_demographic_value": "4"
+      },
+      {
+        "dalia_demographic_value": "do_not_watch",
+        "partner_user_demographic_key": "747",
+        "partner_user_demographic_value": "5"
+      }
+    ],
+    "dalia_demographic_key": "tv_frequency"
+  },
+  {
+    "values": [
+      {
+        "dalia_demographic_value": "accounting",
+        "partner_user_demographic_key": "643",
+        "partner_user_demographic_value": "1"
+      },
+      {
+        "dalia_demographic_value": "advertising",
+        "partner_user_demographic_key": "643",
+        "partner_user_demographic_value": "2"
+      },
+      {
+        "dalia_demographic_value": "agriculture_fishing",
+        "partner_user_demographic_key": "643",
+        "partner_user_demographic_value": "3"
+      },
+      {
+        "dalia_demographic_value": "architecture",
+        "partner_user_demographic_key": "643",
+        "partner_user_demographic_value": "4"
+      },
+      {
+        "dalia_demographic_value": "automotive",
+        "partner_user_demographic_key": "643",
+        "partner_user_demographic_value": "5"
+      },
+      {
+        "dalia_demographic_value": "aviation",
+        "partner_user_demographic_key": "643",
+        "partner_user_demographic_value": "6"
+      },
+      {
+        "dalia_demographic_value": "banking_financial",
+        "partner_user_demographic_key": "643",
+        "partner_user_demographic_value": "7"
+      },
+      {
+        "dalia_demographic_value": "bio_tech",
+        "partner_user_demographic_key": "643",
+        "partner_user_demographic_value": "8"
+      },
+      {
+        "dalia_demographic_value": "brokerage",
+        "partner_user_demographic_key": "643",
+        "partner_user_demographic_value": "9"
+      },
+      {
+        "dalia_demographic_value": "carpenting_electrical_installations_vvs",
+        "partner_user_demographic_key": "643",
+        "partner_user_demographic_value": "10"
+      },
+      {
+        "dalia_demographic_value": "chemicals_plastics_rubber",
+        "partner_user_demographic_key": "643",
+        "partner_user_demographic_value": "11"
+      },
+      {
+        "dalia_demographic_value": "communications_information",
+        "partner_user_demographic_key": "643",
+        "partner_user_demographic_value": "12"
+      },
+      {
+        "dalia_demographic_value": "computer_hardware",
+        "partner_user_demographic_key": "643",
+        "partner_user_demographic_value": "13"
+      },
+      {
+        "dalia_demographic_value": "computer_reseller_software_hardware",
+        "partner_user_demographic_key": "643",
+        "partner_user_demographic_value": "14"
+      },
+      {
+        "dalia_demographic_value": "computer_software",
+        "partner_user_demographic_key": "643",
+        "partner_user_demographic_value": "15"
+      },
+      {
+        "dalia_demographic_value": "construction",
+        "partner_user_demographic_key": "643",
+        "partner_user_demographic_value": "16"
+      },
+      {
+        "dalia_demographic_value": "consulting",
+        "partner_user_demographic_key": "643",
+        "partner_user_demographic_value": "17"
+      },
+      {
+        "dalia_demographic_value": "consumer_electronics",
+        "partner_user_demographic_key": "643",
+        "partner_user_demographic_value": "18"
+      },
+      {
+        "dalia_demographic_value": "consumer_packaged_goods",
+        "partner_user_demographic_key": "643",
+        "partner_user_demographic_value": "19"
+      },
+      {
+        "dalia_demographic_value": "education",
+        "partner_user_demographic_key": "643",
+        "partner_user_demographic_value": "20"
+      },
+      {
+        "dalia_demographic_value": "energy_utilities_oil_and_gas",
+        "partner_user_demographic_key": "643",
+        "partner_user_demographic_value": "21"
+      },
+      {
+        "dalia_demographic_value": "engineering",
+        "partner_user_demographic_key": "643",
+        "partner_user_demographic_value": "22"
+      },
+      {
+        "dalia_demographic_value": "environmental_services",
+        "partner_user_demographic_key": "643",
+        "partner_user_demographic_value": "23"
+      },
+      {
+        "dalia_demographic_value": "fashion_apparel",
+        "partner_user_demographic_key": "643",
+        "partner_user_demographic_value": "24"
+      },
+      {
+        "dalia_demographic_value": "food_beverage",
+        "partner_user_demographic_key": "643",
+        "partner_user_demographic_value": "25"
+      },
+      {
+        "dalia_demographic_value": "government_public_sector",
+        "partner_user_demographic_key": "643",
+        "partner_user_demographic_value": "26"
+      },
+      {
+        "dalia_demographic_value": "healthcare",
+        "partner_user_demographic_key": "643",
+        "partner_user_demographic_value": "27"
+      },
+      {
+        "dalia_demographic_value": "hospitality_tourism",
+        "partner_user_demographic_key": "643",
+        "partner_user_demographic_value": "28"
+      },
+      {
+        "dalia_demographic_value": "human_resources",
+        "partner_user_demographic_key": "643",
+        "partner_user_demographic_value": "29"
+      },
+      {
+        "dalia_demographic_value": "information_technology_it",
+        "partner_user_demographic_key": "643",
+        "partner_user_demographic_value": "30"
+      },
+      {
+        "dalia_demographic_value": "insurance",
+        "partner_user_demographic_key": "643",
+        "partner_user_demographic_value": "31"
+      },
+      {
+        "dalia_demographic_value": "internet",
+        "partner_user_demographic_key": "643",
+        "partner_user_demographic_value": "32"
+      },
+      {
+        "dalia_demographic_value": "legal_law",
+        "partner_user_demographic_key": "643",
+        "partner_user_demographic_value": "33"
+      },
+      {
+        "dalia_demographic_value": "manufacturing",
+        "partner_user_demographic_key": "643",
+        "partner_user_demographic_value": "34"
+      },
+      {
+        "dalia_demographic_value": "market_research",
+        "partner_user_demographic_key": "643",
+        "partner_user_demographic_value": "35"
+      },
+      {
+        "dalia_demographic_value": "marketing_sales",
+        "partner_user_demographic_key": "643",
+        "partner_user_demographic_value": "36"
+      },
+      {
+        "dalia_demographic_value": "media_entertainment",
+        "partner_user_demographic_key": "643",
+        "partner_user_demographic_value": "37"
+      },
+      {
+        "dalia_demographic_value": "military",
+        "partner_user_demographic_key": "643",
+        "partner_user_demographic_value": "38"
+      },
+      {
+        "dalia_demographic_value": "non_profit_social_services",
+        "partner_user_demographic_key": "643",
+        "partner_user_demographic_value": "39"
+      },
+      {
+        "dalia_demographic_value": "personal_services",
+        "partner_user_demographic_key": "643",
+        "partner_user_demographic_value": "40"
+      },
+      {
+        "dalia_demographic_value": "pharmaceuticals",
+        "partner_user_demographic_key": "643",
+        "partner_user_demographic_value": "41"
+      },
+      {
+        "dalia_demographic_value": "printing_publishing",
+        "partner_user_demographic_key": "643",
+        "partner_user_demographic_value": "42"
+      },
+      {
+        "dalia_demographic_value": "public_relations",
+        "partner_user_demographic_key": "643",
+        "partner_user_demographic_value": "43"
+      },
+      {
+        "dalia_demographic_value": "real_estate_property",
+        "partner_user_demographic_key": "643",
+        "partner_user_demographic_value": "44"
+      },
+      {
+        "dalia_demographic_value": "retail_wholesale_trade",
+        "partner_user_demographic_key": "643",
+        "partner_user_demographic_value": "45"
+      },
+      {
+        "dalia_demographic_value": "security",
+        "partner_user_demographic_key": "643",
+        "partner_user_demographic_value": "46"
+      },
+      {
+        "dalia_demographic_value": "shipping_distribution",
+        "partner_user_demographic_key": "643",
+        "partner_user_demographic_value": "47"
+      },
+      {
+        "dalia_demographic_value": "telecommunications",
+        "partner_user_demographic_key": "643",
+        "partner_user_demographic_value": "48"
+      },
+      {
+        "dalia_demographic_value": "transportation",
+        "partner_user_demographic_key": "643",
+        "partner_user_demographic_value": "49"
+      },
+      {
+        "dalia_demographic_value": "other",
+        "partner_user_demographic_key": "643",
+        "partner_user_demographic_value": "50"
+      },
+      {
+        "dalia_demographic_value": "do_not_work",
+        "partner_user_demographic_key": "643",
+        "partner_user_demographic_value": "51"
+      }
+    ],
+    "dalia_demographic_key": "industry_household"
+  },
+  {
+    "values": [
+      {
+        "dalia_demographic_value": "city",
+        "partner_user_demographic_key": "105013",
+        "partner_user_demographic_value": "1"
+      },
+      {
+        "dalia_demographic_value": "no_translation",
+        "partner_user_demographic_key": "105013",
+        "partner_user_demographic_value": "2"
+      },
+      {
+        "dalia_demographic_value": "rural",
+        "partner_user_demographic_key": "105013",
+        "partner_user_demographic_value": "3"
+      }
+    ],
+    "dalia_demographic_key": "city_or_rural"
+  },
+  {
+    "values": [
+      {
+        "dalia_demographic_value": "insurance_none",
+        "partner_user_demographic_key": "105016",
+        "partner_user_demographic_value": "1"
+      },
+      {
+        "dalia_demographic_value": "insurance_employer",
+        "partner_user_demographic_key": "105016",
+        "partner_user_demographic_value": "2"
+      },
+      {
+        "dalia_demographic_value": "insurance_spouse_employer",
+        "partner_user_demographic_key": "105016",
+        "partner_user_demographic_value": "3"
+      },
+      {
+        "dalia_demographic_value": "insurance_spouse",
+        "partner_user_demographic_key": "105016",
+        "partner_user_demographic_value": "4"
+      },
+      {
+        "dalia_demographic_value": "insurance_school",
+        "partner_user_demographic_key": "105016",
+        "partner_user_demographic_value": "5"
+      },
+      {
+        "dalia_demographic_value": "insurance_parents",
+        "partner_user_demographic_key": "105016",
+        "partner_user_demographic_value": "6"
+      },
+      {
+        "dalia_demographic_value": "insurance_medicaid",
+        "partner_user_demographic_key": "105016",
+        "partner_user_demographic_value": "7"
+      },
+      {
+        "dalia_demographic_value": "insurance_medicare",
+        "partner_user_demographic_key": "105016",
+        "partner_user_demographic_value": "8"
+      },
+      {
+        "dalia_demographic_value": "no_answer",
+        "partner_user_demographic_key": "105016",
+        "partner_user_demographic_value": "9"
+      }
+    ],
+    "dalia_demographic_key": "health_insurance_us"
+  },
+  {
+    "values": [
+      {
+        "dalia_demographic_value": "smoker_electronic_cig",
+        "partner_user_demographic_key": "756",
+        "partner_user_demographic_value": "6"
+      },
+      {
+        "dalia_demographic_value": "smoker_yes",
+        "partner_user_demographic_key": "756",
+        "partner_user_demographic_value": "1"
+      },
+      {
+        "dalia_demographic_value": "smoker_occasional",
+        "partner_user_demographic_key": "756",
+        "partner_user_demographic_value": "2"
+      },
+      {
+        "dalia_demographic_value": "smoker_planning_to_quit",
+        "partner_user_demographic_key": "756",
+        "partner_user_demographic_value": "3"
+      },
+      {
+        "dalia_demographic_value": "smoker_no",
+        "partner_user_demographic_key": "756",
+        "partner_user_demographic_value": "4"
+      },
+      {
+        "dalia_demographic_value": "other_tobacco_products",
+        "partner_user_demographic_key": "756",
+        "partner_user_demographic_value": "5"
+      }
+    ],
+    "dalia_demographic_key": "smoker"
+  },
+  {
+    "values": [
+      {
+        "dalia_demographic_value": "facebook",
+        "partner_user_demographic_key": "61295",
+        "partner_user_demographic_value": "1"
+      },
+      {
+        "dalia_demographic_value": "twitter",
+        "partner_user_demographic_key": "61295",
+        "partner_user_demographic_value": "2"
+      },
+      {
+        "dalia_demographic_value": "linkedin",
+        "partner_user_demographic_key": "61295",
+        "partner_user_demographic_value": "3"
+      },
+      {
+        "dalia_demographic_value": "pinterest",
+        "partner_user_demographic_key": "61295",
+        "partner_user_demographic_value": "4"
+      },
+      {
+        "dalia_demographic_value": "tumblr",
+        "partner_user_demographic_key": "61295",
+        "partner_user_demographic_value": "5"
+      },
+      {
+        "dalia_demographic_value": "instagram",
+        "partner_user_demographic_key": "61295",
+        "partner_user_demographic_value": "6"
+      },
+      {
+        "dalia_demographic_value": "youtube",
+        "partner_user_demographic_key": "61295",
+        "partner_user_demographic_value": "7"
+      },
+      {
+        "dalia_demographic_value": "snapchat",
+        "partner_user_demographic_key": "61295",
+        "partner_user_demographic_value": "8"
+      },
+      {
+        "dalia_demographic_value": "whatsapp",
+        "partner_user_demographic_key": "61295",
+        "partner_user_demographic_value": "9"
+      },
+      {
+        "dalia_demographic_value": "other",
+        "partner_user_demographic_key": "61295",
+        "partner_user_demographic_value": "11"
+      },
+      {
+        "dalia_demographic_value": "none_of_above",
+        "partner_user_demographic_key": "61295",
+        "partner_user_demographic_value": "-3105"
+      }
+    ],
+    "dalia_demographic_key": "social_media"
+  },
+  {
+    "values": [
+      {
+        "dalia_demographic_value": "less_one_day",
+        "partner_user_demographic_key": "757",
+        "partner_user_demographic_value": "1"
+      },
+      {
+        "dalia_demographic_value": "1_3",
+        "partner_user_demographic_key": "757",
+        "partner_user_demographic_value": "2"
+      },
+      {
+        "dalia_demographic_value": "4_6",
+        "partner_user_demographic_key": "757",
+        "partner_user_demographic_value": "3"
+      },
+      {
+        "dalia_demographic_value": "7_10",
+        "partner_user_demographic_key": "757",
+        "partner_user_demographic_value": "4"
+      },
+      {
+        "dalia_demographic_value": "over_10",
+        "partner_user_demographic_key": "757",
+        "partner_user_demographic_value": "5"
+      },
+      {
+        "dalia_demographic_value": "no_smoke",
+        "partner_user_demographic_key": "757",
+        "partner_user_demographic_value": "6"
+      }
+    ],
+    "dalia_demographic_key": "standard_cigarette_frequency"
+  },
+  {
+    "values": [
+      {
+        "dalia_demographic_value": "north_america",
+        "partner_user_demographic_key": "754",
+        "partner_user_demographic_value": "1"
+      },
+      {
+        "dalia_demographic_value": "central_america",
+        "partner_user_demographic_key": "754",
+        "partner_user_demographic_value": "2"
+      },
+      {
+        "dalia_demographic_value": "south_america",
+        "partner_user_demographic_key": "754",
+        "partner_user_demographic_value": "3"
+      },
+      {
+        "dalia_demographic_value": "asia",
+        "partner_user_demographic_key": "754",
+        "partner_user_demographic_value": "4"
+      },
+      {
+        "dalia_demographic_value": "australia_oceania",
+        "partner_user_demographic_key": "754",
+        "partner_user_demographic_value": "5"
+      },
+      {
+        "dalia_demographic_value": "europe",
+        "partner_user_demographic_key": "754",
+        "partner_user_demographic_value": "6"
+      },
+      {
+        "dalia_demographic_value": "middle_east",
+        "partner_user_demographic_key": "754",
+        "partner_user_demographic_value": "7"
+      },
+      {
+        "dalia_demographic_value": "no_travel",
+        "partner_user_demographic_key": "754",
+        "partner_user_demographic_value": "9"
+      },
+      {
+        "dalia_demographic_value": "africa",
+        "partner_user_demographic_key": "754",
+        "partner_user_demographic_value": "8"
+      }
+    ],
+    "dalia_demographic_key": "standard_countries_visited"
+  },
+  {
+    "values": [
+      {
+        "dalia_demographic_value": "yes",
+        "partner_user_demographic_key": "746",
+        "partner_user_demographic_value": "1"
+      },
+      {
+        "dalia_demographic_value": "no",
+        "partner_user_demographic_key": "746",
+        "partner_user_demographic_value": "2"
+      }
+    ],
+    "dalia_demographic_key": "standard_gaming_online"
+  }
+]
