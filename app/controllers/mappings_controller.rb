@@ -1,4 +1,5 @@
 class MappingsController < ApplicationController
+  skip_before_action :verify_authenticity_token
   before_action :set_mapping, only: %i[ show edit update destroy ]
 
   # GET /mappings or /mappings.json
@@ -46,6 +47,13 @@ class MappingsController < ApplicationController
         format.json { render json: @mapping.errors, status: :unprocessable_entity }
       end
     end
+  end
+
+  def batch_update
+    ids_to_update = params[:ids]
+    property_to_update = params[:property_to_update]
+    value = params[:value]
+    Mapping.where(id: ids_to_update).update_all(property_to_update.to_sym => value)
   end
 
   # DELETE /mappings/1 or /mappings/1.json

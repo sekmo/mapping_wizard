@@ -2,6 +2,22 @@
 
 <h1>Mappings for <%= @partner.name %></h1>
 
+<strong>Batch edit</strong>
+<p>First hold cmd and click to select the rows you want to batch update, then select the field from the dropdown, enter the new value and click the submit button.</p>
+<form onsubmit="return false;">
+  <select name="batch_edit_property_to_update" id="batch_edit_property_to_update">
+    <option value="dalia_key">Dalia key</option>
+    <option value="dalia_value">Dalia value</option>
+    <option value="partner_key">Partner key</option>
+    <option value="partner_value">Partner value</option>
+  </select>
+  <input id="batch_edit_new_value" type="text" placeholder="new value">
+  <input id="batch_edit_submit" type="submit" disabled>
+  <input id="clear_selection" value="Clear selection" type="button">
+</form>
+
+<br><br>
+
 <table class="mapping-index">
   <thead>
     <tr>
@@ -15,15 +31,15 @@
 
   <tbody>
     <% @mappings.each do |mapping| %>
-      <tr>
-        <td><%= mapping.dalia_key %></td>
-        <td><%= mapping.dalia_value %></td>
-        <td><%= mapping.partner_key %></td>
-        <td><%= mapping.partner_value %></td>
+      <%= content_tag :tr, id: dom_id(mapping), data: {mapping_id: mapping.id} do %>
+        <td class="dalia_key"><%= mapping.dalia_key %></td>
+        <td class="dalia_value"><%= mapping.dalia_value %></td>
+        <td class="partner_key"><%= mapping.partner_key %></td>
+        <td class="partner_value"><%= mapping.partner_value %></td>
         <td><%= link_to 'Show', mapping %></td>
         <td><%= link_to 'Edit', edit_mapping_path(mapping) %></td>
         <td><%= link_to 'Destroy', mapping, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-      </tr>
+      <% end %>
     <% end %>
   </tbody>
 </table>
@@ -31,3 +47,93 @@
 <br>
 
 <%= link_to 'New Mapping', new_mapping_path %>
+
+
+<script>
+  var selected_mapping_elements = [];
+
+  function getSelectedMappingIds() {
+    return selected_mapping_elements.map( mapping => Number(mapping.dataset.mappingId));
+  }
+
+  var batch_edit_new_value_input = document.getElementById("batch_edit_new_value");
+  batch_edit_new_value_input.addEventListener("input", (event) => {
+    if (event.target.value == "") {
+      batch_edit_submit.disabled = true;
+    } else {
+      batch_edit_submit.disabled = false;
+    }
+  });
+
+  function toggleMappingSelection(event) {
+    if(window.event.metaKey) {
+      var mapping = this;
+      mapping.classList.toggle("selected");
+      toggleToArray(mapping, selected_mapping_elements);
+    }
+  }
+
+  function cleanMappingSelection() {
+    var selectedMappings = document.querySelectorAll('.mapping-index tbody tr.selected');
+
+    for (i = 0; i < selectedMappings.length; i++) {
+      selectedMappings[i].classList.toggle("selected");
+    }
+    selected_mapping_elements = [];
+  }
+
+  function toggleToArray(element, array) {
+    var index = array.indexOf(element)
+    if ( index == -1) {
+      array.push(element);
+    } else {
+      array.splice(index, 1);
+    }
+  }
+
+  function batchEditUpdateTable(mappingsToUpdate, property, value) {
+    mappingsToUpdate = selected_mapping_elements;
+    for (i = 0; i < mappingsToUpdate.length; i++) {
+      mapping = mappingsToUpdate[i];
+      classToGet = `.${property}`;
+      cellToUpdate = mapping.querySelector(classToGet);
+      cellToUpdate.innerText = value;
+    }
+  }
+
+  function batchEditSubmit() {
+    var property = document.getElementById("batch_edit_property_to_update").value;
+    var mapping_ids = getSelectedMappingIds();
+    var value = batch_edit_new_value_input.value;
+
+    sendMappingBatchUpdateRequest(mapping_ids, property, value);
+    batchEditUpdateTable(selected_mapping_elements, property, value);
+    // cleanMappingSelection();
+  }
+
+  function sendMappingBatchUpdateRequest(mapping_ids, property, value) {
+    var url = "http://localhost:3000/mappings/batch_update";
+    var xhr = new XMLHttpRequest();
+    xhr.open("PATCH", url);
+
+    xhr.setRequestHeader("Accept", "application/json");
+    xhr.setRequestHeader("Content-Type", "application/json");
+
+    var data = {
+      "ids": mapping_ids,
+      "property_to_update": property,
+      "value": value
+    };
+
+    xhr.send(JSON.stringify(data));
+  }
+
+  var mappings = document.querySelectorAll('.mapping-index tbody tr');
+
+  for (i = 0; i < mappings.length; i++) {
+    mappings[i].onclick = toggleMappingSelection;
+  }
+
+  var batch_edit_submit = document.getElementById("batch_edit_submit");
+  batch_edit_submit.onclick = batchEditSubmit;
+</script>

@@ -1,5 +1,10 @@
 Rails.application.routes.draw do
-  resources :mappings
+  resources :mappings do
+    collection do
+      patch :batch_update
+    end
+  end
+
   resources :partners do
     resources :mappings, only: [:index]
   end
