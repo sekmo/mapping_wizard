@@ -9,55 +9,24 @@
 # ActiveRecord::Base.connection.execute("TRUNCATE mappings")
 ActiveRecord::Base.connection.execute("TRUNCATE partners RESTART IDENTITY CASCADE")
 
-
-mappings = [
-  ["gender",
-    "male",
-    "gen",
-    "1"
-  ],
-  ["gender",
-    "female",
-    "gen",
-    "2"
-  ],
-  ["education",
-    "low",
-    "edu",
-    "1"
-  ],
-  ["education",
-    "midlow",
-    "edu",
-    "2"
-  ],
-  ["education",
-    "mid",
-    "edu",
-    "3"
-  ],
-  ["education",
-    "midhigh",
-    "edu",
-    "4"
-  ],
-  ["education",
-    "high",
-    "edu",
-    "5"
-  ],
-]
-
 partner = Partner.create(name: "Lucid")
 Partner.create(name: "PureSpectrum")
 Partner.create(name: "Cint")
 
-mappings.each do |mapping|
-  Mapping.create(
-    partner: partner,
-    dalia_key: mapping[0],
-    dalia_value: mapping[1],
-    partner_key: mapping[2],
-    partner_value: mapping[3]
-  )
+mapping_json = JSON.parse(File.read("#{Rails.root}/db/seeds_mapping.json"))
+
+mapping_json.each do |mapping|
+  dalia_key = mapping["dalia_demographic_key"]
+  mapping["values"].each do |value|
+    dalia_value = value["dalia_demographic_value"]
+    partner_key = value["partner_user_demographic_key"]
+    partner_value = value["partner_user_demographic_value"]
+    Mapping.create(
+      partner: partner,
+      dalia_key: dalia_key,
+      dalia_value: dalia_value,
+      partner_key: partner_key,
+      partner_value: partner_value
+    )
+  end
 end
